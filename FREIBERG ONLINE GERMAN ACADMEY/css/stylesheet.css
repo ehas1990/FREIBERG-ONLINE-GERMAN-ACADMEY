@@ -1,0 +1,338 @@
+@font-face {
+  font-family:Montserrat ;
+  src: url('/static/Montserrat-Regular.ttf');
+}
+body
+{
+  font-family: Montserrat;
+}
+.social-head
+{
+    background: #ff4f57;
+    height: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color:#ffffff !important;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-link
+{
+    color: #444;
+    font-weight: 500;
+}
+.main-head
+{
+    height: 76px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+/* slide */
+
+header .item {
+    height: 100vh;
+    position: relative;
+  }
+  header .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  header .item .cover {
+    padding: 75px 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+  }
+  header .item .cover .header-content {
+    position: relative;
+    padding: 56px;
+    overflow: hidden;
+  }
+  header .item .cover .header-content .line {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border: 9px solid #fff;
+    -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+    clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+  }
+  header .item .cover .header-content h2 {
+    font-weight: 300;
+    font-size: 35px;
+    color: #fff;
+  }
+  header .item .cover .header-content h1 {
+    font-size: 56px;
+    font-weight: 600;
+    margin: 5px 0 20px;
+    word-spacing: 3px;
+    color: #fff;
+  }
+  header .item .cover .header-content h4 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    color: #fff;
+  }
+  header .owl-item.active h1 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+    animation-delay: 0.3s;
+  }
+  header .owl-item.active h2 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+    animation-delay: 0.3s;
+  }
+  header .owl-item.active h4 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+    animation-delay: 0.3s;
+  }
+  header .owl-item.active .line {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInLeft;
+    animation-delay: 0.3s;
+  }
+  header .owl-nav .owl-prev {
+    position: absolute;
+    left: 15px;
+    top: 43%;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    background: rgba(0, 0, 0, 0.5) !important;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    border-radius: 0;
+  }
+  header .owl-nav .owl-prev span {
+    font-size: 1.6875rem;
+    color: #fff;
+  }
+  header .owl-nav .owl-prev:focus {
+    outline: 0;
+  }
+  header .owl-nav .owl-prev:hover {
+    background: #000 !important;
+  }
+  header .owl-nav .owl-next {
+    position: absolute;
+    right: 15px;
+    top: 43%;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    background: rgba(0, 0, 0, 0.5) !important;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    border-radius: 0;
+  }
+  header .owl-nav .owl-next span {
+    font-size: 1.6875rem;
+    color: #fff;
+  }
+  header .owl-nav .owl-next:focus {
+    outline: 0;
+  }
+  header .owl-nav .owl-next:hover {
+    background: #000 !important;
+  }
+  header:hover .owl-prev {
+    left: 0px;
+    opacity: 1;
+  }
+  header:hover .owl-next {
+    right: 0px;
+    opacity: 1;
+  }
+
+
+/* end slide */
+.bright-section-title-small {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: .7;
+  text-align: justify;
+  font-family: Montserrat;
+}
+/*  */
+
+.counter
+{
+    text-align: center;
+}
+
+.counter-count
+{
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    color: #000000;
+    text-align: center;
+    display: inline-block;
+}
+.count-text {
+  margin-top: 0;
+  font-weight: 800;
+  font-size: 16px;
+  opacity: .7;
+  text-align: center;
+  color: #fffbfb;
+}
+ .counter-count {
+  position: relative;
+  font-size: 40px;
+  line-height: normal;
+  font-weight: 900;
+  margin-bottom: 18px;
+  padding-bottom: 15px;
+  color: #ffffff;
+}
+.section_timer
+{
+  background-color: #000;
+}
+.count-up .fa
+{
+  color: #ffffff;
+}
+.counter
+{
+  padding: 50px;
+}
+/* end */
+/* text-head */
+.text-head
+
+  {
+  
+    text-align:center;
+
+    color:#000;
+    position:relative;
+    left:0;
+    text-shadow:
+      1px 1px 0px #2f2f30,
+      2px 2px 0px #b4d1d9,
+      3px 3px 0px #a6c6cf,
+      4px 4px 0px #94b8c3,
+      5px 5px 0px #87aeb9,
+      6px 6px 0px #7aa3af,
+      7px 7px 0px #6d97a3,
+      8px 8px 0px #618b98,
+      9px 9px 0px #56818e,
+      10px 10px 0px #4c7683,
+      15px 15px 25px rgba(0,0,0,.9);
+      transition: .5s ease-in-out;
+  }
+  
+  .text-head:hover {
+    left:20px;
+    text-shadow:
+      -1px 1px 0px #c4dbe2,
+      -2px 2px 0px #b4d1d9,
+      -3px 3px 0px #a6c6cf,
+      -4px 4px 0px #94b8c3,
+      -5px 5px 0px #87aeb9,
+      -6px 6px 0px #7aa3af,
+      -7px 7px 0px #6d97a3,
+      -8px 8px 0px #618b98,
+      -9px 9px 0px #56818e,
+      -10px 10px 0px #4c7683,
+      -15px 15px 25px rgba(0,0,0,.9);
+  }
+#image
+{
+  width: 460px;
+  height: 460px;
+}
+footer{
+  background: #22272b;
+}
+.foot p
+{
+color:  #aaa;
+}
+.footer
+{
+  padding: 20px;
+}
+.foot_2 .nav{
+  display: block;
+  color: #aaa;
+  font-weight: 500;
+}
+.foot_2 .nav li a{
+  color: #aaa;
+  font-weight: 500;
+}
+.foot_2 .nav li a:hover{
+  color:#ff4f57;
+  font-weight: 500;
+}
+address
+{
+  color: #aaa;
+  font-weight: 500;
+
+}
+address:hover ,.foot p:hover,.section-why a:hover,.navbar-nav li a:hover
+{  color:#ff4f57;
+  font-weight: 500;
+}
+#foot
+{
+background: #1d2023;
+}
+#foot-3 p
+{
+   color: #999;
+   font-size: 15px;
+    font-weight: 400;
+}
+#foot-3 a{
+  text-decoration: none;
+  color: #999;
+  font-size: 15px;
+   font-weight: 400;
+}
+#foot-3 p a:hover{
+  color:#ff4f57;
+  font-weight: 500;
+}
