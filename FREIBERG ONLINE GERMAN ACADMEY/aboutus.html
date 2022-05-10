@@ -2,312 +2,317 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Freiberg Online German Academy</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--  -->
+  <head>
+    <title>Freiberg Online German Academy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-  <!--  -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?display=swap&amp;family=Bree+Serif%3A300%2C400" media="screen, print">
-<link rel="stylesheet" type="text/css" href="css/normalize.min.css" media="screen, print">
-<link rel="stylesheet" type="text/css" href="css/smartslider.min.css" media="screen, print">
-<style>div#n2-ss-4 .n2-ss-slider-1{display:grid;position:relative;}div#n2-ss-4 .n2-ss-slider-2{display:grid;position:relative;overflow:hidden;padding:0px 0px 0px 0px;border:0px solid RGBA(62,62,62,1);border-radius:0px;background-clip:padding-box;background-repeat:repeat;background-position:50% 50%;background-size:cover;background-attachment:scroll;z-index:1;}div#n2-ss-4:not(.n2-ss-loaded) .n2-ss-slider-2{background-image:none !important;}div#n2-ss-4 .n2-ss-slider-3{display:grid;grid-template-areas:'cover';position:relative;overflow:hidden;z-index:10;}div#n2-ss-4 .n2-ss-slider-3 > *{grid-area:cover;}div#n2-ss-4 .n2-ss-slide-backgrounds,div#n2-ss-4 .n2-ss-slider-3 > .n2-ss-divider{position:relative;}div#n2-ss-4 .n2-ss-slide-backgrounds{z-index:10;}div#n2-ss-4 .n2-ss-slide-backgrounds > *{overflow:hidden;}div#n2-ss-4 .n2-ss-slide-background{transform:translateX(-100000px);}div#n2-ss-4 .n2-ss-slider-4{place-self:center;position:relative;width:100%;height:100%;z-index:20;display:grid;grid-template-areas:'slide';}div#n2-ss-4 .n2-ss-slider-4 > *{grid-area:slide;}div#n2-ss-4.n2-ss-full-page--constrain-ratio .n2-ss-slider-4{height:auto;}div#n2-ss-4 .n2-ss-slide{display:grid;place-items:center;grid-auto-columns:100%;position:relative;z-index:20;-webkit-backface-visibility:hidden;transform:translateX(-100000px);}div#n2-ss-4 .n2-ss-slide{perspective:1500px;}div#n2-ss-4 .n2-ss-slide-active{z-index:21;}.n2-ss-background-animation{position:absolute;top:0;left:0;width:100%;height:100%;z-index:3;}div#n2-ss-4 .n2-ss-background-animation{position:absolute;top:0;left:0;width:100%;height:100%;z-index:3;}div#n2-ss-4 .n2-ss-background-animation .n2-ss-slide-background{z-index:auto;}div#n2-ss-4 .n2-bganim-side{position:absolute;left:0;top:0;overflow:hidden;background:RGBA(51,51,51,1);}div#n2-ss-4 .n2-bganim-tile-overlay-colored{z-index:100000;background:RGBA(51,51,51,1);}div#n2-ss-4 .nextend-arrow{cursor:pointer;overflow:hidden;line-height:0 !important;z-index:18;-webkit-user-select:none;}div#n2-ss-4 .nextend-arrow img{position:relative;display:block;}div#n2-ss-4 .nextend-arrow img.n2-arrow-hover-img{display:none;}div#n2-ss-4 .nextend-arrow:FOCUS img.n2-arrow-hover-img,div#n2-ss-4 .nextend-arrow:HOVER img.n2-arrow-hover-img{display:inline;}div#n2-ss-4 .nextend-arrow:FOCUS img.n2-arrow-normal-img,div#n2-ss-4 .nextend-arrow:HOVER img.n2-arrow-normal-img{display:none;}div#n2-ss-4 .nextend-arrow-animated{overflow:hidden;}div#n2-ss-4 .nextend-arrow-animated > div{position:relative;}div#n2-ss-4 .nextend-arrow-animated .n2-active{position:absolute;}div#n2-ss-4 .nextend-arrow-animated-fade{transition:background 0.3s, opacity 0.4s;}div#n2-ss-4 .nextend-arrow-animated-horizontal > div{transition:all 0.4s;transform:none;}div#n2-ss-4 .nextend-arrow-animated-horizontal .n2-active{top:0;}div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-horizontal .n2-active{left:100%;}div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-horizontal .n2-active{right:100%;}div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-horizontal:HOVER > div,div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-horizontal:FOCUS > div{transform:translateX(-100%);}div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-horizontal:HOVER > div,div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-horizontal:FOCUS > div{transform:translateX(100%);}div#n2-ss-4 .nextend-arrow-animated-vertical > div{transition:all 0.4s;transform:none;}div#n2-ss-4 .nextend-arrow-animated-vertical .n2-active{left:0;}div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-vertical .n2-active{top:100%;}div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-vertical .n2-active{bottom:100%;}div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-vertical:HOVER > div,div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-vertical:FOCUS > div{transform:translateY(-100%);}div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-vertical:HOVER > div,div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-vertical:FOCUS > div{transform:translateY(100%);}div#n2-ss-4 .n-uc-1089f77a53fed-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1089f77a53fed-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-10248670a3672-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-10248670a3672-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n2-font-b8b65977c061155d2b0af0f421449124-hover{font-family: 'Bree Serif';color: #ffffff;font-size:225%;text-shadow: none;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: inherit;letter-spacing: normal;word-spacing: normal;text-transform: none;font-weight: 400;}div#n2-ss-4 .n-uc-1d8488b626512-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1d8488b626512-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1dd30a9df0c6e-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1dd30a9df0c6e-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1aed16f31d28b-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1aed16f31d28b-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-19c67e8c365d8-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-19c67e8c365d8-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-111caae86dcf9-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-111caae86dcf9-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-15d18bb290d49-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-15d18bb290d49-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-10fbc400b4e99-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-10fbc400b4e99-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n2-ss-slide-limiter{max-width:1200px;}div#n2-ss-4 .n-uc-Oclq7jhhF4WI{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-oiPUI4CmIaPv-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-oiPUI4CmIaPv{align-self:center;}div#n2-ss-4 .n-uc-1089f77a53fed-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-1089f77a53fed-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1089f77a53fed-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-10248670a3672-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-10248670a3672{width:50%}div#n2-ss-4 .n-uc-oFMWLrgOydD2{max-width:520px}div#n2-ss-4 .n-uc-1d8488b626512-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1d8488b626512{width:50%}div#n2-ss-4 .n-uc-C4q3cvvSbuYn{padding:0px 10px 30px 0px}div#n2-ss-4 .n-uc-g24aIS9wW4DX-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-g24aIS9wW4DX{align-self:center;}div#n2-ss-4 .n-uc-1dd30a9df0c6e-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-1dd30a9df0c6e-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1dd30a9df0c6e-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-1aed16f31d28b-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1aed16f31d28b{width:50%}div#n2-ss-4 .n-uc-bGx0FxGpAG43{max-width:520px}div#n2-ss-4 .n-uc-19c67e8c365d8-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-19c67e8c365d8{width:50%}div#n2-ss-4 .n-uc-qMpy3QTUeW8G{padding:0px 0px 10px 0px}div#n2-ss-4 .n-uc-rujiw5Hu9FA1-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-rujiw5Hu9FA1{align-self:center;}div#n2-ss-4 .n-uc-111caae86dcf9-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-111caae86dcf9-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-111caae86dcf9-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-15d18bb290d49-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-15d18bb290d49{width:50%}div#n2-ss-4 .n-uc-pEFQgut1MHrp{max-width:520px}div#n2-ss-4 .n-uc-10fbc400b4e99-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-10fbc400b4e99{width:50%}div#n2-ss-4 .nextend-arrow img{width: 32px}@media (min-width: 1200px){div#n2-ss-4 [data-hide-desktopportrait="1"]{display: none !important;}}@media (orientation: landscape) and (max-width: 1199px) and (min-width: 901px),(orientation: portrait) and (max-width: 1199px) and (min-width: 701px){div#n2-ss-4 .n-uc-1089f77a53fed-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-10248670a3672{width:50%}div#n2-ss-4 .n-uc-1d8488b626512{width:50%}div#n2-ss-4 .n-uc-1dd30a9df0c6e-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1aed16f31d28b{width:50%}div#n2-ss-4 .n-uc-19c67e8c365d8{width:50%}div#n2-ss-4 .n-uc-111caae86dcf9-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-15d18bb290d49{width:50%}div#n2-ss-4 .n-uc-10fbc400b4e99{width:50%}div#n2-ss-4 [data-hide-tabletportrait="1"]{display: none !important;}}@media (orientation: landscape) and (max-width: 900px),(orientation: portrait) and (max-width: 700px){div#n2-ss-4 .n-uc-1089f77a53fed-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-10248670a3672{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1d8488b626512{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1dd30a9df0c6e-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-1aed16f31d28b{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-19c67e8c365d8{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-111caae86dcf9-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-15d18bb290d49{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-10fbc400b4e99{width:calc(100% - 20px)}div#n2-ss-4 [data-hide-mobileportrait="1"]{display: none !important;}div#n2-ss-4 .nextend-arrow img{width: 16px}}</style>
-<script>(function(){this._N2=this._N2||{_r:[],_d:[],r:function(){this._r.push(arguments)},d:function(){this._d.push(arguments)}}}).call(window);!function(a){a.indexOf("Safari")>0&&-1===a.indexOf("Chrome")&&document.documentElement.style.setProperty("--ss-safari-fix-225962","1px")}(navigator.userAgent);</script>
-<script src="js/n2.min.js"></script>
-<script src="js/smartslider-frontend.min.js"></script>
-<script src="js/ss-simple.min.js"></script>
-<script src="js/smartslider-backgroundanimation.min.js"></script>
-<script src="js/w-arrow-image.min.js"></script>
-<script>_N2.r('documentReady', function(){
-_N2.r(["documentReady","smartslider-frontend","smartslider-backgroundanimation","SmartSliderWidgetArrowImage","ss-simple"],function(){new _N2.SmartSliderSimple('n2-ss-4', {"admin":false,"callbacks":"","background.video.mobile":1,"loadingTime":2000,"alias":{"id":0,"smoothScroll":0,"slideSwitch":0,"scroll":1},"align":"normal","isDelayed":0,"responsive":{"mediaQueries":{"all":false,"desktopportrait":["(min-width: 1200px)"],"tabletportrait":["(orientation: landscape) and (max-width: 1199px) and (min-width: 901px)","(orientation: portrait) and (max-width: 1199px) and (min-width: 701px)"],"mobileportrait":["(orientation: landscape) and (max-width: 900px)","(orientation: portrait) and (max-width: 700px)"]},"base":{"slideOuterWidth":1200,"slideOuterHeight":500,"sliderWidth":1200,"sliderHeight":500,"slideWidth":1200,"slideHeight":500},"hideOn":{"desktopLandscape":false,"desktopPortrait":false,"tabletLandscape":false,"tabletPortrait":false,"mobileLandscape":false,"mobilePortrait":false},"onResizeEnabled":true,"type":"fullwidth","sliderHeightBasedOn":"real","focusUser":1,"focusEdge":"auto","breakpoints":[{"device":"tabletPortrait","type":"max-screen-width","portraitWidth":1199,"landscapeWidth":1199},{"device":"mobilePortrait","type":"max-screen-width","portraitWidth":700,"landscapeWidth":900}],"enabledDevices":{"desktopLandscape":0,"desktopPortrait":1,"tabletLandscape":0,"tabletPortrait":1,"mobileLandscape":0,"mobilePortrait":1},"sizes":{"desktopPortrait":{"width":1200,"height":500,"max":3000,"min":1200},"tabletPortrait":{"width":701,"height":292,"customHeight":false,"max":1199,"min":701},"mobilePortrait":{"width":320,"height":133,"customHeight":false,"max":900,"min":320}},"overflowHiddenPage":0,"focus":{"offsetTop":"#wpadminbar","offsetBottom":""}},"controls":{"mousewheel":0,"touch":"horizontal","keyboard":1,"blockCarouselInteraction":1},"playWhenVisible":1,"playWhenVisibleAt":0.5,"lazyLoad":0,"lazyLoadNeighbor":0,"blockrightclick":0,"maintainSession":0,"autoplay":{"enabled":1,"start":1,"duration":500,"autoplayLoop":1,"allowReStart":0,"pause":{"click":1,"mouse":"0","mediaStarted":1},"resume":{"click":0,"mouse":"0","mediaEnded":1,"slidechanged":0},"interval":1,"intervalModifier":"loop","intervalSlide":"current"},"perspective":1500,"layerMode":{"playOnce":0,"playFirstLayer":1,"mode":"skippable","inAnimation":"mainInEnd"},"bgAnimations":{"global":[{"type":"Flat","tiles":{"delay":0,"sequence":"ForwardDiagonal"},"main":{"type":"both","duration":1,"zIndex":2,"current":{"ease":"easeOutCubic","opacity":0}}}],"color":"RGBA(51,51,51,1)","speed":"fast","slides":{"1":{"animation":[{"type":"Flat","tiles":{"delay":0,"sequence":"ForwardDiagonal"},"main":{"type":"both","duration":1,"zIndex":2,"current":{"ease":"easeOutCubic","opacity":0}}}],"speed":"fast","color":"RGBA(51,51,51,1)"},"2":{"animation":[{"type":"Flat","tiles":{"delay":0,"sequence":"ForwardDiagonal"},"main":{"type":"both","duration":1,"zIndex":2,"current":{"ease":"easeOutCubic","opacity":0}}}],"speed":"fast","color":"RGBA(51,51,51,1)"}}},"mainanimation":{"type":"horizontal","duration":400,"delay":0,"ease":"easeOutQuad","shiftedBackgroundAnimation":0},"carousel":1,"initCallbacks":function(){new _N2.SmartSliderWidgetArrowImage(this);}});});
-});
-</script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-     <!-- Bootstrap CSS -->
+    <!--  -->
   
-  <!--  -->
-<link href="css/bootstrap-grid.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap-grid.rtl.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap-grid.rtl.min.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap-reboot.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap-reboot.rtl.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap.rtl.min.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap-reboot.rtl.min.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap-grid.rtl.min.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap-utilities.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap-utilities.min.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap.rtl.css" rel="stylesheet" type="text/css">
-<link href="css/bootstrap.rtl.min.css" rel="stylesheet" type="text/css">
-<link href="css/fontawesome.css" rel="stylesheet" type="text/css">
-<link href="istoke/pixeden.css" rel="stylesheet" type="text/css">
-<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
-
-</head>
-<body >
-<!-- header -->
-<header class="fixed-top">
-
-<!-- contact -->
-  <div class="social-head">
-      <div class="container">
-          <div class="row">
-                <div class="col-sm-12 col-12 col-md-6 col-lg-6 col-xl-6">
-                    <ul class="nav">
-                          <li class="nav-item">
-                              <a href="#" class="nav-link" id="nav-link"><i class="fa fa-map-marker"></i><span class="me-2"><p>Freiberg Online German Academy,<br> Kattappana, Kerala 685508</p></span></a>
-                          </li>
-                    </ul>
-                </div>
-                <div class="col-sm-12 col-12 col-md-6 col-lg-6 col-xl-6">
-                        <ul class="nav justify-content-end">
-                          <li class="nav-item ">
-                              <a href="#" class="nav-link" id="nav-link"><i class="fa fas fa-phone "></i><span class="me-3">home</span></a>
-                          </li>
-                          <li class="nav-item ">
-                            <a href="#" class="nav-link" id="nav-link"><i class="fa fa-envelope"></i><span class="me-3">info@domain.com</span></a>
-                        </li>
-                      
-                      </ul>
-                </div>
-          </div>
-      </div>
-</div>
-<div class="main_head bg-light">
- <div class="container">
-       <div class="row">
-            <nav class="navbar navbar-expand-sm bg-light navbar-light">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./images/logo.jpg" class="logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                  <ul class="navbar-nav ">
-                    <li class="nav-item">
-                      <a class="nav-link" href="index.html">Home </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="aboutus.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="course.html">Course</a>
-                    </li>   
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">contact</a>
-                    </li>  
-                  </ul>
-                </div>
-              </div>
-            </nav>
-       </div>
- </div>     
-
-</div>
-  <!-- end -->
-</header>
-<!-- end -->
-<section class="p-6">
-    <div class="container">
-           <div class="row">
-                  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-md-12 col-xl-12">
-                    
-                  </div>
-           </div>
-    </div>
-</section>
-<!-- About -->
-<section>
-    <div class="container">
-          <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"></div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    <div class="about-para">
-                        We are the leading provider of German language training. Our courses
-                        provide a creative, communicative and effective learning experience for
-                        students of all ages. Whatever plans you may have for the future, knowledge
-                        of German will increase your options and Freiberg Online German Academy will 
-                        be there to help you achieve your dreams. All our courses begin with a beginner
-                        level and progress through to advanced level proficiency in a way that allows 
-                        students to reach their goals as quickly as possible and with ease. Our 
-                        experienced trainers will make sure that you learn more than just language
-                        skills but also how to use them effectively in real-life situations. We take 
-                        great pride in our quality of service, and we always go the extra mile to
-                        ensure that our students get personal attention every step of the way.
-                        Whether this course is the first step towards learning German or simply
-                        another step on an exciting journey we are always happy to help.
+   
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?display=swap&amp;family=Bree+Serif%3A300%2C400" media="screen, print">
+  <link rel="stylesheet" type="text/css" href="css/normalize.min.css" media="screen, print">
+  <link rel="stylesheet" type="text/css" href="css/smartslider.min.css" media="screen, print">
+  <style>div#n2-ss-4 .n2-ss-slider-1{display:grid;position:relative;}div#n2-ss-4 .n2-ss-slider-2{display:grid;position:relative;overflow:hidden;padding:0px 0px 0px 0px;border:0px solid RGBA(62,62,62,1);border-radius:0px;background-clip:padding-box;background-repeat:repeat;background-position:50% 50%;background-size:cover;background-attachment:scroll;z-index:1;}div#n2-ss-4:not(.n2-ss-loaded) .n2-ss-slider-2{background-image:none !important;}div#n2-ss-4 .n2-ss-slider-3{display:grid;grid-template-areas:'cover';position:relative;overflow:hidden;z-index:10;}div#n2-ss-4 .n2-ss-slider-3 > *{grid-area:cover;}div#n2-ss-4 .n2-ss-slide-backgrounds,div#n2-ss-4 .n2-ss-slider-3 > .n2-ss-divider{position:relative;}div#n2-ss-4 .n2-ss-slide-backgrounds{z-index:10;}div#n2-ss-4 .n2-ss-slide-backgrounds > *{overflow:hidden;}div#n2-ss-4 .n2-ss-slide-background{transform:translateX(-100000px);}div#n2-ss-4 .n2-ss-slider-4{place-self:center;position:relative;width:100%;height:100%;z-index:20;display:grid;grid-template-areas:'slide';}div#n2-ss-4 .n2-ss-slider-4 > *{grid-area:slide;}div#n2-ss-4.n2-ss-full-page--constrain-ratio .n2-ss-slider-4{height:auto;}div#n2-ss-4 .n2-ss-slide{display:grid;place-items:center;grid-auto-columns:100%;position:relative;z-index:20;-webkit-backface-visibility:hidden;transform:translateX(-100000px);}div#n2-ss-4 .n2-ss-slide{perspective:1500px;}div#n2-ss-4 .n2-ss-slide-active{z-index:21;}.n2-ss-background-animation{position:absolute;top:0;left:0;width:100%;height:100%;z-index:3;}div#n2-ss-4 .n2-ss-background-animation{position:absolute;top:0;left:0;width:100%;height:100%;z-index:3;}div#n2-ss-4 .n2-ss-background-animation .n2-ss-slide-background{z-index:auto;}div#n2-ss-4 .n2-bganim-side{position:absolute;left:0;top:0;overflow:hidden;background:RGBA(51,51,51,1);}div#n2-ss-4 .n2-bganim-tile-overlay-colored{z-index:100000;background:RGBA(51,51,51,1);}div#n2-ss-4 .nextend-arrow{cursor:pointer;overflow:hidden;line-height:0 !important;z-index:18;-webkit-user-select:none;}div#n2-ss-4 .nextend-arrow img{position:relative;display:block;}div#n2-ss-4 .nextend-arrow img.n2-arrow-hover-img{display:none;}div#n2-ss-4 .nextend-arrow:FOCUS img.n2-arrow-hover-img,div#n2-ss-4 .nextend-arrow:HOVER img.n2-arrow-hover-img{display:inline;}div#n2-ss-4 .nextend-arrow:FOCUS img.n2-arrow-normal-img,div#n2-ss-4 .nextend-arrow:HOVER img.n2-arrow-normal-img{display:none;}div#n2-ss-4 .nextend-arrow-animated{overflow:hidden;}div#n2-ss-4 .nextend-arrow-animated > div{position:relative;}div#n2-ss-4 .nextend-arrow-animated .n2-active{position:absolute;}div#n2-ss-4 .nextend-arrow-animated-fade{transition:background 0.3s, opacity 0.4s;}div#n2-ss-4 .nextend-arrow-animated-horizontal > div{transition:all 0.4s;transform:none;}div#n2-ss-4 .nextend-arrow-animated-horizontal .n2-active{top:0;}div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-horizontal .n2-active{left:100%;}div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-horizontal .n2-active{right:100%;}div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-horizontal:HOVER > div,div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-horizontal:FOCUS > div{transform:translateX(-100%);}div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-horizontal:HOVER > div,div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-horizontal:FOCUS > div{transform:translateX(100%);}div#n2-ss-4 .nextend-arrow-animated-vertical > div{transition:all 0.4s;transform:none;}div#n2-ss-4 .nextend-arrow-animated-vertical .n2-active{left:0;}div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-vertical .n2-active{top:100%;}div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-vertical .n2-active{bottom:100%;}div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-vertical:HOVER > div,div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-vertical:FOCUS > div{transform:translateY(-100%);}div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-vertical:HOVER > div,div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-vertical:FOCUS > div{transform:translateY(100%);}div#n2-ss-4 .n-uc-1089f77a53fed-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1089f77a53fed-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-10248670a3672-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-10248670a3672-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n2-font-b8b65977c061155d2b0af0f421449124-hover{font-family: 'Bree Serif';color: #ffffff;font-size:225%;text-shadow: none;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: inherit;letter-spacing: normal;word-spacing: normal;text-transform: none;font-weight: 400;}div#n2-ss-4 .n-uc-1d8488b626512-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1d8488b626512-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1dd30a9df0c6e-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1dd30a9df0c6e-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1aed16f31d28b-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1aed16f31d28b-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-19c67e8c365d8-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-19c67e8c365d8-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-111caae86dcf9-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-111caae86dcf9-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-15d18bb290d49-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-15d18bb290d49-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-10fbc400b4e99-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-10fbc400b4e99-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n2-ss-slide-limiter{max-width:1200px;}div#n2-ss-4 .n-uc-Oclq7jhhF4WI{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-oiPUI4CmIaPv-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-oiPUI4CmIaPv{align-self:center;}div#n2-ss-4 .n-uc-1089f77a53fed-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-1089f77a53fed-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1089f77a53fed-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-10248670a3672-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-10248670a3672{width:50%}div#n2-ss-4 .n-uc-oFMWLrgOydD2{max-width:520px}div#n2-ss-4 .n-uc-1d8488b626512-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1d8488b626512{width:50%}div#n2-ss-4 .n-uc-C4q3cvvSbuYn{padding:0px 10px 30px 0px}div#n2-ss-4 .n-uc-g24aIS9wW4DX-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-g24aIS9wW4DX{align-self:center;}div#n2-ss-4 .n-uc-1dd30a9df0c6e-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-1dd30a9df0c6e-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1dd30a9df0c6e-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-1aed16f31d28b-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1aed16f31d28b{width:50%}div#n2-ss-4 .n-uc-bGx0FxGpAG43{max-width:520px}div#n2-ss-4 .n-uc-19c67e8c365d8-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-19c67e8c365d8{width:50%}div#n2-ss-4 .n-uc-qMpy3QTUeW8G{padding:0px 0px 10px 0px}div#n2-ss-4 .n-uc-rujiw5Hu9FA1-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-rujiw5Hu9FA1{align-self:center;}div#n2-ss-4 .n-uc-111caae86dcf9-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-111caae86dcf9-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-111caae86dcf9-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-15d18bb290d49-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-15d18bb290d49{width:50%}div#n2-ss-4 .n-uc-pEFQgut1MHrp{max-width:520px}div#n2-ss-4 .n-uc-10fbc400b4e99-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-10fbc400b4e99{width:50%}div#n2-ss-4 .nextend-arrow img{width: 32px}@media (min-width: 1200px){div#n2-ss-4 [data-hide-desktopportrait="1"]{display: none !important;}}@media (orientation: landscape) and (max-width: 1199px) and (min-width: 901px),(orientation: portrait) and (max-width: 1199px) and (min-width: 701px){div#n2-ss-4 .n-uc-1089f77a53fed-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-10248670a3672{width:50%}div#n2-ss-4 .n-uc-1d8488b626512{width:50%}div#n2-ss-4 .n-uc-1dd30a9df0c6e-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1aed16f31d28b{width:50%}div#n2-ss-4 .n-uc-19c67e8c365d8{width:50%}div#n2-ss-4 .n-uc-111caae86dcf9-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-15d18bb290d49{width:50%}div#n2-ss-4 .n-uc-10fbc400b4e99{width:50%}div#n2-ss-4 [data-hide-tabletportrait="1"]{display: none !important;}}@media (orientation: landscape) and (max-width: 900px),(orientation: portrait) and (max-width: 700px){div#n2-ss-4 .n-uc-1089f77a53fed-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-10248670a3672{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1d8488b626512{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1dd30a9df0c6e-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-1aed16f31d28b{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-19c67e8c365d8{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-111caae86dcf9-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-15d18bb290d49{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-10fbc400b4e99{width:calc(100% - 20px)}div#n2-ss-4 [data-hide-mobileportrait="1"]{display: none !important;}div#n2-ss-4 .nextend-arrow img{width: 16px}}</style>
+  <script>(function(){this._N2=this._N2||{_r:[],_d:[],r:function(){this._r.push(arguments)},d:function(){this._d.push(arguments)}}}).call(window);!function(a){a.indexOf("Safari")>0&&-1===a.indexOf("Chrome")&&document.documentElement.style.setProperty("--ss-safari-fix-225962","1px")}(navigator.userAgent);</script>
+  <script src="js/n2.min.js"></script>
+  <script src="js/smartslider-frontend.min.js"></script>
+  <script src="js/ss-simple.min.js"></script>
+  <script src="js/smartslider-backgroundanimation.min.js"></script>
+  <script src="js/w-arrow-image.min.js"></script>
+  <script>_N2.r('documentReady', function(){
+  _N2.r(["documentReady","smartslider-frontend","smartslider-backgroundanimation","SmartSliderWidgetArrowImage","ss-simple"],function(){new _N2.SmartSliderSimple('n2-ss-4', {"admin":false,"callbacks":"","background.video.mobile":1,"loadingTime":2000,"alias":{"id":0,"smoothScroll":0,"slideSwitch":0,"scroll":1},"align":"normal","isDelayed":0,"responsive":{"mediaQueries":{"all":false,"desktopportrait":["(min-width: 1200px)"],"tabletportrait":["(orientation: landscape) and (max-width: 1199px) and (min-width: 901px)","(orientation: portrait) and (max-width: 1199px) and (min-width: 701px)"],"mobileportrait":["(orientation: landscape) and (max-width: 900px)","(orientation: portrait) and (max-width: 700px)"]},"base":{"slideOuterWidth":1200,"slideOuterHeight":500,"sliderWidth":1200,"sliderHeight":500,"slideWidth":1200,"slideHeight":500},"hideOn":{"desktopLandscape":false,"desktopPortrait":false,"tabletLandscape":false,"tabletPortrait":false,"mobileLandscape":false,"mobilePortrait":false},"onResizeEnabled":true,"type":"fullwidth","sliderHeightBasedOn":"real","focusUser":1,"focusEdge":"auto","breakpoints":[{"device":"tabletPortrait","type":"max-screen-width","portraitWidth":1199,"landscapeWidth":1199},{"device":"mobilePortrait","type":"max-screen-width","portraitWidth":700,"landscapeWidth":900}],"enabledDevices":{"desktopLandscape":0,"desktopPortrait":1,"tabletLandscape":0,"tabletPortrait":1,"mobileLandscape":0,"mobilePortrait":1},"sizes":{"desktopPortrait":{"width":1200,"height":500,"max":3000,"min":1200},"tabletPortrait":{"width":701,"height":292,"customHeight":false,"max":1199,"min":701},"mobilePortrait":{"width":320,"height":133,"customHeight":false,"max":900,"min":320}},"overflowHiddenPage":0,"focus":{"offsetTop":"#wpadminbar","offsetBottom":""}},"controls":{"mousewheel":0,"touch":"horizontal","keyboard":1,"blockCarouselInteraction":1},"playWhenVisible":1,"playWhenVisibleAt":0.5,"lazyLoad":0,"lazyLoadNeighbor":0,"blockrightclick":0,"maintainSession":0,"autoplay":{"enabled":1,"start":1,"duration":500,"autoplayLoop":1,"allowReStart":0,"pause":{"click":1,"mouse":"0","mediaStarted":1},"resume":{"click":0,"mouse":"0","mediaEnded":1,"slidechanged":0},"interval":1,"intervalModifier":"loop","intervalSlide":"current"},"perspective":1500,"layerMode":{"playOnce":0,"playFirstLayer":1,"mode":"skippable","inAnimation":"mainInEnd"},"bgAnimations":{"global":[{"type":"Flat","tiles":{"delay":0,"sequence":"ForwardDiagonal"},"main":{"type":"both","duration":1,"zIndex":2,"current":{"ease":"easeOutCubic","opacity":0}}}],"color":"RGBA(51,51,51,1)","speed":"fast","slides":{"1":{"animation":[{"type":"Flat","tiles":{"delay":0,"sequence":"ForwardDiagonal"},"main":{"type":"both","duration":1,"zIndex":2,"current":{"ease":"easeOutCubic","opacity":0}}}],"speed":"fast","color":"RGBA(51,51,51,1)"},"2":{"animation":[{"type":"Flat","tiles":{"delay":0,"sequence":"ForwardDiagonal"},"main":{"type":"both","duration":1,"zIndex":2,"current":{"ease":"easeOutCubic","opacity":0}}}],"speed":"fast","color":"RGBA(51,51,51,1)"}}},"mainanimation":{"type":"horizontal","duration":400,"delay":0,"ease":"easeOutQuad","shiftedBackgroundAnimation":0},"carousel":1,"initCallbacks":function(){new _N2.SmartSliderWidgetArrowImage(this);}});});
+  });
+  </script>
+  
+  
+       <!-- Bootstrap CSS -->
+    
+    <!--  -->
+  <link href="css/bootstrap-grid.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap-grid.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap-grid.rtl.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap-grid.rtl.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap-reboot.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap-reboot.rtl.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.rtl.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap-reboot.rtl.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap-grid.rtl.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap-utilities.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap-utilities.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.rtl.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.rtl.min.css" rel="stylesheet" type="text/css">
+  <link href="css/fontawesome.css" rel="stylesheet" type="text/css">
+  <link href="istoke/pixeden.css" rel="stylesheet" type="text/css">
+  <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+  
+  </head>
+  <body >
+    <!-- header -->
+    <header class="fixed-top">
+    
+    <!-- contact -->
+      <div class="social-head">
+          <div class="container">
+              <div class="row">
+                    <div class="col-sm-12 col-12 col-md-6 col-lg-6 col-xl-6">
+                        <ul class="nav">
+                              <li class="nav-item">
+                                  <a href="#" class="nav-link" id="nav-link"><i class="fa fa-map-marker"></i><span class="me-2"><p>Freiberg Online German Academy,<br> Kattappana, Kerala 685508</p></span></a>
+                              </li>
+                        </ul>
                     </div>
-                </div>
+                    <div class="col-sm-12 col-12 col-md-6 col-lg-6 col-xl-6">
+                            <ul class="nav justify-content-end">
+                              <li class="nav-item ">
+                                  <a href="#" class="nav-link" id="nav-link"><i class="fa fas fa-phone"></i><span class="me-3">+91 9645234565</span></a>
+                              </li>
+                              <li class="nav-item ">
+                                <a href="#" class="nav-link" id="nav-link"><i class="fa fa-envelope"></i><span class="me-3">info@domain.com</span></a>
+                            </li>
+                          
+                          </ul>
+                    </div>
+              </div>
           </div>
     </div>
-      
-</section>
-<!-- VISION/MISSION -->
-<section class="p-3">
-         <div class="container">
-                <div class="row">
-                       <div class="col-12  col-md-6 col-lg-6 col-xl-6">
-                           <div class="box1">
-                                  <h5 class="text-center">Our Vision</h5>
-                                  <div class="text-center"><i class="fa fa-globe fa-4x fa-spin"></i></div>
-                               
-                                        <div class="about-vision">
-                                            To ignite the quench for top-notch professionalism by enabling the flight to
-                                            Germany
-                                        </div>
-                           </div>
-                       </div>
-                       <div class="col-12 col-md-6 col-lg-6 col-xl-6">
-                        <div class="box1">
-                            <h5  class="text-center">Our Mission</h5>
-                            <div class="text-center"><i class="fa fa-eercast  fa-4x fa-spin"></i></div>
-                                    <div class="about-vision">
-                                        We are on a mission to make dreams-come true for anyone who perceive
-                                        Germany as their study destination.
-                                    </div>
-                     </div>
-                       </div>
-                </div>
-         </div>
-</section>
-<!-- Who do we serve? -->
-<section>
+    <div class="main_head bg-light">
+     <div class="container">
+           <div class="row">
+                <nav class="navbar navbar-expand-sm bg-light navbar-light">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="./images/logo.jpg" class="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                      <ul class="navbar-nav ">
+                        <li class="nav-item">
+                          <a class="nav-link" href="index.html">Home </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="aboutus.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="course.html">Course</a>
+                        </li>   
+                        <li class="nav-item">
+                          <a class="nav-link" href="contact.html">contact</a>
+                        </li>  
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+           </div>
+     </div>     
+    
+    </div>
+      <!-- end -->
+    </header>
+    <!-- end -->
+    <section class="p-6">
         <div class="container">
                <div class="row">
-                      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                            <div class="about">
-                                  <h5 class="text-center">Who do we serve?</h5>
-                                  <div class="about-serve">
-                                    To any German enthusiasts, especially those who aspires to pursue
-                                     their higher education, or find job prospects at Germany.
-                                  </div>
-                            </div>
+                      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-md-12 col-xl-12">
+                        
                       </div>
                </div>
         </div>
-</section>
-<!--  -->
-<!-- Why should you choose us -->
-<section>
-    <div class="section-why pt-5">
-           <div class="container">
-            <h3 class="text-head">Why should you choose us?</h3>
-                 <div class="row p-5">
-                       <div class="col-sm-12 col-lg-6 col-md-6">
-                             <div class="image">
-                                   <img src="images/why-should.png" class="img-responsive" id="image">
-                             </div>
-                       </div>
-                       <div class="col-sm-12 col-12 col-lg-6 col-md-6">
-                              <ul class="nav">
-                                   <li class="nav-item"><a class="nav-link"  id="nav-link1"> <i class="fa fa-check"></i><span class="me-3"><p>Fresh batch starts every Monday for all four levels.</p></span></a></li>
-                                   <li class="nav-item"><a class="nav-link" id="nav-link1"><i class="fa fa-check"></i> <span class="me-3"><p>Learn Germany at the comfort of your place, through online mode.</p></span></a></li>
-                                   <li class="nav-item"><a class="nav-link" id="nav-link1"><i class="fa fa-check"></i> <span class="me-3"><p>Small batch size to ensure focus and direction given to every student’s progress.</p></span></a></li>
-                                   <li class="nav-item"><a class="nav-link" id="nav-link1"><i class="fa fa-check"></i> <span class="me-3"><p>Friendly and passionate tutors who help you ace the language.</p></span></a></li>
-                                   <li class="nav-item"><a class="nav-link" id="nav-link1"><i class="fa fa-check"></i> <span class="me-3"><p>Combined crash courses are offered (A1+A2 levels and B1+B2 levels)</p></span></a></li>
-                                   <li class="nav-item"><a class="nav-link" id="nav-link1"><i class="fa fa-check"></i> <span class="me-3"><p>Lowest, light-on-pocket fee for the quality training, as we know how high the market charge elsewhere.</p></span></a></li>
-                                   <li class="nav-item"><a class="nav-link"id="nav-link1"><i class="fa fa-check"></i> <span class="me-3"><p>Add-on services like guidance in entire application process for Masters Programmes in Public Universities, Statement of Purpose/ Motivation letter, counselling services.</p></span></a></li>
-                              </ul>
-                       </div>
-                 </div>
-           </div>
-    </div>
-</section>
-<!-- Why should you choose us -->
-<section>
-         <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-lg-6 col-md-6 col-xl-6">
-                        
+    </section>
+    <!-- About -->
+    <section>
+        <div class="container">
+              <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6"></div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                        <div class="about-para">
+                            We are the leading provider of German language training. Our courses
+                            provide a creative, communicative and effective learning experience for
+                            students of all ages. Whatever plans you may have for the future, knowledge
+                            of German will increase your options and Freiberg Online German Academy will 
+                            be there to help you achieve your dreams. All our courses begin with a beginner
+                            level and progress through to advanced level proficiency in a way that allows 
+                            students to reach their goals as quickly as possible and with ease. Our 
+                            experienced trainers will make sure that you learn more than just language
+                            skills but also how to use them effectively in real-life situations. We take 
+                            great pride in our quality of service, and we always go the extra mile to
+                            ensure that our students get personal attention every step of the way.
+                            Whether this course is the first step towards learning German or simply
+                            another step on an exciting journey we are always happy to help.
                         </div>
-                       <div class="col-12 col-sm-12 col-lg-6 col-md-6 col-xl-6">
-                       <div class=""> <button onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-dark" style="float: right;border-radius: 38px;"><i class="fa fa-arrow-up "></i></button></div>
-                       </div>
-                </div>
-         </div>
-</section>
+                    </div>
+              </div>
+        </div>
+          
+    </section>
+    <!-- VISION/MISSION -->
+    <section class="p-3">
+             <div class="container">
+                    <div class="row">
+                           <div class="col-12  col-md-6 col-lg-6 col-xl-6">
+                               <div class="box1">
 
-<!-- footer -->
-<section class="p-3">
-
-</section>
-<footer>
-    <div class="footer">
-       <div class="container">
-         <div class="row">
-             <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4 col-xl-4">
-               <h4 class="text-white">About us</h4>
-                  <div class="foot">
-                         <p>Freiberg Online German Academy, based in Trivandrum and Kattapana began its journey in virtual training of German interested enthusiasts during the post-pandemic season in 2021. </p>
-                  </div>
+                                      <h5 class="text-center">Our Vision</h5>
+                                      
+                                        <div class="text-center"><i class="fa  fa-lightbulb-o  fa-2x  boxicon" id="boxicon" ></i></div>
+                                      
+                                     
+                                   
+                                            <div class="about-vision">
+                                                To ignite the quench for top-notch professionalism by enabling the flight to
+                                                Germany
+                                            </div>
+                               </div>
+                           </div>
+                           <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                            <div class="box1">
+                              <h5  class="text-center">Our Mission</h5>
+                                <div class="text-center"> <i class="fa  fa-space-shuttle boxicon  fa-2x" id="boxicon"></i></div>
+                                        <div class="about-vision">
+                                            We are on a mission to make dreams-come true for anyone who perceive
+                                            Germany as their study destination.
+                                        </div>
+                         </div>
+                           </div>
+                    </div>
              </div>
-             <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4 col-xl-4">
-               <div class="justify-content-lg-center">
-                 <h4 class="text-white">Quick Link</h4> 
-                      <div class="foot_2">
+    </section>
+    <!-- Who do we serve? -->
+    <section>
+            <div class="container">
+                   <div class="row">
+                          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <div class="about">
+                                      <h5 class="text-center">Who do we serve?</h5>
+                                      <div class="about-serve">
+                                        To any German enthusiasts, especially those who aspires to pursue
+                                         their higher education, or find job prospects at Germany.
+                                      </div>
+                                </div>
+                          </div>
+                   </div>
+            </div>
+    </section>
+    <!--  -->
+    <!-- Why should you choose us -->
+    <section>
+        <div class="section-why pt-5">
+               <div class="container">
+                <h3 class="text-head">Why should you choose us?</h3>
+                     <div class="row p-5">
+                           <div class="col-sm-12 col-lg-6 col-md-6">
+                                 <div class="image">
+                                       <img src="images/why-should.png" class="img-responsive" id="image">
+                                 </div>
+                           </div>
+                           <div class="col-sm-12 col-12 col-lg-6 col-md-6">
+                                  <ul class="nav">
+                                       <li class="nav-item"><a class="nav-link"  id="nav-link1"> <i class="fas fa fa-check-square"></i><span class="me-3"><p>Fresh batch starts every Monday for all four levels.</p></span></a></li>
+                                       <li class="nav-item"><a class="nav-link" id="nav-link1"><i class="fas fa fa-check-square"></i> <span class="me-3"><p>Learn Germany at the comfort of your place, through online mode.</p></span></a></li>
+                                       <li class="nav-item"><a class="nav-link" id="nav-link1"><i class="fas fa fa-check-square"></i> <span class="me-3"><p>Small batch size to ensure focus and direction given to every student’s progress.</p></span></a></li>
+                                       <li class="nav-item"><a class="nav-link" id="nav-link1"><i class="fas fa fa-check-square"></i> <span class="me-3"><p>Friendly and passionate tutors who help you ace the language.</p></span></a></li>
+                                       <li class="nav-item"><a class="nav-link" id="nav-link1"><i class="fas fa fa-check-square"></i> <span class="me-3"><p>Combined crash courses are offered (A1+A2 levels and B1+B2 levels)</p></span></a></li>
+                                       <li class="nav-item"><a class="nav-link" id="nav-link1"><i class="fas fa fa-check-square"></i><span class="me-3"><p>Lowest, light-on-pocket fee for the quality training, as we know how high the market charge elsewhere.</p></span></a></li>
+                                       <li class="nav-item"><a class="nav-link"id="nav-link1"><i class="fas fa fa-check-square"></i><span class="me-3"><p>Add-on services like guidance in entire application process for Masters Programmes in Public Universities, Statement of Purpose/ Motivation letter, counselling services.</p></span></a></li>
+                                  </ul>
+                           </div>
+                     </div>
+               </div>
+        </div>
+    </section>
+    <!-- Why should you choose us -->
+    <section>
+             <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-lg-6 col-md-6 col-xl-6">
+                            
+                            </div>
+                           <div class="col-12 col-sm-12 col-lg-6 col-md-6 col-xl-6">
+                           <div class=""> <button onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-dark" style="float: right;border-radius: 38px;"><i class="fa fa-arrow-up "></i></button></div>
+                           </div>
+                    </div>
+             </div>
+    </section>
+    
+    <!-- footer -->
+    <section class="p-3">
+    
+    </section>
+    <footer>
+        <div class="footer">
+           <div class="container">
+             <div class="row">
+                 <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4 col-xl-4">
+                   <h4 class="text-white">About us</h4>
+                      <div class="foot">
+                             <p>Freiberg Online German Academy, based in Trivandrum and Kattapana began its journey in virtual training of German interested enthusiasts during the post-pandemic season in 2021. </p>
+                      </div>
+                 </div>
+                 <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4 col-xl-4">
+                   <div class="justify-content-lg-center">
+                     <h4 class="text-white">Quick Link</h4> 
+                          <div class="foot_2">
+                              <ul class="nav">
+                                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="course.html">Courses</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                              </ul>
+                            </div>
+                    </div>        
+                 </div>
+                 <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4 col-xl-4">
+                  <h4 class="text-white">Address</h4> 
+                        <div class="foot_3">
+                               <address>Freiberg Online German Academy<br> Kattappana<br> Kerala 685508</address>
+                        </div>
+                        <div class="foot_2">
                           <ul class="nav">
-                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
-                                <li class="nav-item"><a class="nav-link" href="course.html">Courses</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                                <li class="nav-item"><a class="nav-link"><i class="fa fas fa-phone "></i><span class="me-3">+91 9645234565</span></a></li>
+                                <li class="nav-item"><a class="nav-link"><i class="fa fa-envelope"></i><span class="me-3">info@demo.com</span></a></li>
+                            
                           </ul>
                         </div>
-                </div>        
-             </div>
-             <div class="col-sm-12 col-xs-12 col-lg-4 col-md-4 col-xl-4">
-              <h4 class="text-white">Address</h4> 
-                    <div class="foot_3">
-                           <address>Freiberg Online German Academy<br> Kattappana<br> Kerala 685508</address>
-                    </div>
-                    <div class="foot_2">
-                      <ul class="nav">
-                            <li class="nav-item"><a class="nav-link"><i class="fa fa-phone fa-rotate-90"></i><span class="me-3">+91 9645234565</span></a></li>
-                            <li class="nav-item"><a class="nav-link"><i class="fa fa-envelope"></i><span class="me-3">info@demo.com</span></a></li>
-                        
-                      </ul>
-                    </div>
-             </div>
-          </div>   
-       </div>
-    </div>   
-</footer>
-<!-- end footer -->
-
-<!-- foot -->
-<div id="foot">
-       <div class="container">
-              <div class="row p-3">
-                     <div class="col-sm-12 col-xs-12 col-lg-6 col-md-6 col-xl-6">
-                          <div id="foot-3">
-                                 <p>All rights reserved. Created by <a href="https://a2zalphabetsolutionz.com/"> A2Z Alphabet Solutionz Pvt.Ltd</a></p>
-                          </div>
-                     </div>
-                     <div class="col-sm-12 col-xs-12 col-lg-6 col-md-6 col-xl-6">
-                             <div id="foot-4 ">
-                                    <ul class="nav foot-4 justify-content-end">
-                                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa fas far fa-facebook"></i></a></li>
-                                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa fas far fa-google"></i></a></li>
-                                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa fas far fa-instagram"></i></a></li>
-                                         <li class="nav-item"><a class="nav-link" href="#"><i class="fa fas far fa-twitter"></i></a></li>
-                                    </ul>
-                             </div>
-                     </div>
-              </div>
-       </div>
-</div>
-<!-- foot -->
-​<script src="js/bootstrap.bundle.js"></script>
+                 </div>
+              </div>   
+           </div>
+        </div>   
+    </footer>
+    <!-- end footer -->
+    
+    <!-- foot -->
+    <div id="foot">
+           <div class="container">
+                  <div class="row p-3">
+                         <div class="col-sm-12 col-xs-12 col-lg-6 col-md-6 col-xl-6">
+                              <div id="foot-3">
+                                     <p>All rights reserved. Created by <a href="https://a2zalphabetsolutionz.com/"> A2Z Alphabet Solutionz Pvt.Ltd</a></p>
+                              </div>
+                         </div>
+                         <div class="col-sm-12 col-xs-12 col-lg-6 col-md-6 col-xl-6">
+                                 <div id="foot-4 ">
+                                        <ul class="nav foot-4 justify-content-end">
+                                             <li class="nav-item"><a class="nav-link" href="#"><i class="fa fas  fa-facebook"></i></a></li>
+                                             <li class="nav-item"><a class="nav-link" href="#"><i class="fa fas far fa-google"></i></a></li>
+                                             <li class="nav-item"><a class="nav-link" href="#"><i class="fa fas far fa-instagram"></i></a></li>
+                                             <li class="nav-item"><a class="nav-link" href="#"><i class="fa fas far fa-youtube"></i></a></li>
+                                        </ul>
+                                 </div>
+                         </div>
+                  </div>
+           </div>
+    </div>
+    <!-- foot -->
+   
+        
+    ​<script src="js/bootstrap.bundle.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/bootstrap.esm.js"></script>
 <script src="js/bootstrap.esm.min.js"></script>
@@ -324,7 +329,7 @@ _N2.r(["documentReady","smartslider-frontend","smartslider-backgroundanimation",
         }, {
           
           //chnage count up speed here
-            duration: 800,
+            duration: 1000,
             easing: 'swing',
             step: function (now) {
                 $(this).text(Math.ceil(now));
@@ -333,28 +338,137 @@ _N2.r(["documentReady","smartslider-frontend","smartslider-backgroundanimation",
     });
 </script>
 <!-- end count -->
-
 <script>
-    //Get the button
-    var mybutton = document.getElementById("myBtn");
-    
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
     }
-    
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-    </script>
-    
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+<script>
+  // vars
+'use strict'
+var	testim = document.getElementById("testim"),
+		testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
+    testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
+    testimLeftArrow = document.getElementById("left-arrow"),
+    testimRightArrow = document.getElementById("right-arrow"),
+    testimSpeed = 4500,
+    currentSlide = 0,
+    currentActive = 0,
+    testimTimer,
+		touchStartPos,
+		touchEndPos,
+		touchPosDiff,
+		ignoreTouch = 30;
+;
 
-</body>
+window.onload = function() {
+
+    // Testim Script
+    function playSlide(slide) {
+        for (var k = 0; k < testimDots.length; k++) {
+            testimContent[k].classList.remove("active");
+            testimContent[k].classList.remove("inactive");
+            testimDots[k].classList.remove("active");
+        }
+
+        if (slide < 0) {
+            slide = currentSlide = testimContent.length-1;
+        }
+
+        if (slide > testimContent.length - 1) {
+            slide = currentSlide = 0;
+        }
+
+        if (currentActive != currentSlide) {
+            testimContent[currentActive].classList.add("inactive");            
+        }
+        testimContent[slide].classList.add("active");
+        testimDots[slide].classList.add("active");
+
+        currentActive = currentSlide;
+    
+        clearTimeout(testimTimer);
+        testimTimer = setTimeout(function() {
+            playSlide(currentSlide += 1);
+        }, testimSpeed)
+    }
+
+    testimLeftArrow.addEventListener("click", function() {
+        playSlide(currentSlide -= 1);
+    })
+
+    testimRightArrow.addEventListener("click", function() {
+        playSlide(currentSlide += 1);
+    })    
+
+    for (var l = 0; l < testimDots.length; l++) {
+        testimDots[l].addEventListener("click", function() {
+            playSlide(currentSlide = testimDots.indexOf(this));
+        })
+    }
+
+    playSlide(currentSlide);
+
+    // keyboard shortcuts
+    document.addEventListener("keyup", function(e) {
+        switch (e.keyCode) {
+            case 37:
+                testimLeftArrow.click();
+                break;
+                
+            case 39:
+                testimRightArrow.click();
+                break;
+
+            case 39:
+                testimRightArrow.click();
+                break;
+
+            default:
+                break;
+        }
+    })
+		
+		testim.addEventListener("touchstart", function(e) {
+				touchStartPos = e.changedTouches[0].clientX;
+		})
+	
+		testim.addEventListener("touchend", function(e) {
+				touchEndPos = e.changedTouches[0].clientX;
+			
+				touchPosDiff = touchStartPos - touchEndPos;
+			
+				console.log(touchPosDiff);
+				console.log(touchStartPos);	
+				console.log(touchEndPos);	
+
+			
+				if (touchPosDiff > 0 + ignoreTouch) {
+						testimLeftArrow.click();
+				} else if (touchPosDiff < 0 - ignoreTouch) {
+						testimRightArrow.click();
+				} else {
+					return;
+				}
+			
+		})
+}
+</script>
+    </body>
+</html>

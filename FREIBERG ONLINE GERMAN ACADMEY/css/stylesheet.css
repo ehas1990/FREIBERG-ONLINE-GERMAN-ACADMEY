@@ -358,6 +358,7 @@ background: #1d2023;
   border-radius: 8px;
   height: 290px;
   box-shadow: 5px 5px 10px 10px #888888;
+
 }
 .logo
 {
@@ -1003,4 +1004,37 @@ background: #1d2023;
   line-height: 25px;
 }
 
+}
+/*  */
+.box:hover
+{
+  box-shadow:200px 0px 0px 200px #ff4f57 inset;
+  color: #ffffff;
+}
+.card-link:hover
+{
+color: #ff4f57;
+}
+.fa-rotate-112
+{
+  transform: rotate(112deg);
+}
+#boxicon {
+  background: #fcfff7;
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+}
+.boxicon
+{
+  padding: 30px;
+}
+
+#boxicon:hover{
+   
+  background: #ff4f57;
+  color: #ffffff;
 }
