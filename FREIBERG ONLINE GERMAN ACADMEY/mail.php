@@ -7,7 +7,7 @@
         $opp=$_POST['opp'];
 
 		$to='ehasahamed@mail.com'; 
-		$subject='Freiberg Online German Academy';
+		$subject='Freiberg Online German Academy & Educational Consultancy';
 		$message="Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg."\n\n"."course opp:".$opp;
 		$headers="From: ".$email;
 
