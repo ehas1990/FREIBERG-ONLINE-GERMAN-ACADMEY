@@ -2,6 +2,10 @@
   font-family:Montserrat ;
   src: url('/static/Montserrat-Regular.ttf');
 }
+@font-face {
+  font-family:lobster ;
+  src: url('/static/Lobster-Regular.ttf');
+}
 body
 {
   font-family: Montserrat;
@@ -193,6 +197,7 @@ header .item {
   opacity: .7;
   text-align: justify;
   font-family: Montserrat;
+  line-height: 27.3px;
 }
 /*  */
 
@@ -1037,4 +1042,57 @@ color: #ff4f57;
    
   background: #ff4f57;
   color: #ffffff;
+}
+#serve
+{
+
+    
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overlay {
+  background: rgb(0 0 0 / 70%);
+  overflow: hidden;
+  height: 100%;
+  color: white;
+  font-family:lobster;
+  margin-top: 50px;
+ }
+.about
+{
+  margin-top: 50px;
+}  
+#about
+{
+  font-size: 32px;
+font-weight: bold;
+font-style:oblique;
+ 
+}
+.about-serve
+{    font-size: 20px;
+  font-weight: 600;
+  font-style:oblique;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.about-para
+{
+  line-height: 27.3px;
+  font-family:Montserrat ;
+  text-align: justify;
+}
+.box-para
+{
+  font-family:Montserrat ;
+}
+.semicolon
+{
+  color: #ff4f57;
+  font-size:56px;
+  font-style: oblique;
+  font-family:lobster;
 }

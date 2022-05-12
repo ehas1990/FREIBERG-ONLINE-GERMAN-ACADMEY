@@ -1,0 +1,255 @@
+@media only screen
+  and (min-device-width: 100px)
+  and (max-device-width:320px)
+{
+    .logo {
+        width: 65px !important;
+        height: 65px !important;
+    }
+    .social-head {
+        background: #ff4f57;
+        height: 240px !important;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .n2_clear
+    {
+        
+    margin-top:320px !important;
+    }
+    .nav
+    {
+        justify-content: start !important;
+    }
+    .section_about
+    {
+        margin-top: -347px !important;
+    }
+    #client
+    {
+        height: 890px !important;
+    }
+    #testim
+    {
+        margin-top: 455px !important;
+    }
+    .section_About
+    {
+        margin-top: 100px !important;
+    }  
+    #box1
+    {
+        margin-top: 10px !important;
+    }
+    .about-serve {
+        font-size: 20px;
+        font-weight: 600;
+        font-style: oblique;
+        font-size: 20px;
+        margin-top: 12px !important;
+    }
+    #box-frame
+    {
+        margin-top: 10px !important;
+    }
+    .frame
+    {
+        height: max-content !important;
+    }
+    #section-p6
+    {
+        margin-top: 108px !important;
+    }
+}
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  {
+    .social-head {
+        background: #ff4f57;
+        height: 180px !important;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .nav
+    {
+        justify-content: start !important;
+    }
+    .n2_clear
+    {
+        margin-top: 282px !important;
+    }
+    .section_about
+    {
+        margin-top: -305px !important; 
+    }
+    #client
+    {
+        height: 890px !important;
+    }
+    #testim
+    {
+        margin-top: 455px !important;
+    }
+    .section_About
+    {
+        margin-top: 60px !important;
+    }  
+    #box1
+    {
+        margin-top: 10px !important;
+    }
+    #box-frame
+    {
+        margin-top: 10px !important;
+    }
+    .frame
+    {
+        height: max-content !important;
+    }
+    #section-p6
+    {
+        margin-top: 70px !important;
+    }
+}
+  @media only screen
+  and (min-device-width: 480px)
+  and (max-device-width: 620px)
+{
+    .social-head {
+        background: #ff4f57;
+        height: 123px !important;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .nav{
+        justify-content: start !important;
+    }
+    .n2_clear
+    {
+        margin-top: 236px !important;
+    }
+    .section_about
+    {
+        margin-top: -278px !important;
+    }
+    #client
+    {
+        height: 890px !important;
+    }
+    #testim
+    {
+        margin-top: 455px !important;
+    }
+    .section_About
+    {
+        margin-top: 10px !important;
+    }  
+    #box1
+    {
+        margin-top: 10px !important;
+    }
+    #box-frame
+    {
+        margin-top: 10px !important;
+    }
+    .frame
+    {
+        height: max-content !important;
+    }
+    #section-p6
+    {
+        margin-top: 10px !important;
+    }
+}
+@media only screen
+  and (min-device-width:620px)
+  and (max-device-width:720px)
+{
+    .social-head {
+        background: #ff4f57;
+        height: 129px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #nav_edit
+    {
+        justify-content: center !important;
+
+    }
+    .n2_clear
+    {
+        margin-top: 240px !important;  
+    }
+    .section_about
+    {
+        margin-top: -259px !important;
+    }
+    .foot-4
+    {
+        justify-content: center !important;
+    }
+    .section_About
+    {
+        margin-top: 10px !important;
+    }  
+    #box1
+    {
+        margin-top: 10px !important;
+    }
+    #box-frame
+    {
+        margin-top: 10px !important;
+    }
+    .frame
+    {
+        height: max-content !important;
+    }
+    #section-p6
+    {
+        margin-top: 10px !important;
+    }
+}
+@media only screen
+  and (min-device-width:720px)
+  and (max-device-width:1200px)
+{
+    .social-head {
+        background: #ff4f57;
+        height: 128px !important;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .foot-4
+    {
+        justify-content: center !important;
+    }
+    #nav_edit
+    {
+        justify-content:center;
+    }
+    .section_About
+    {
+        margin-top: 10px !important;
+    }  
+    
+    .box1 {
+        background: #ffffff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 5px 5px 10px 10px #888888;
+        height: 274px !important;
+    }
+   #box1-frame
+    {
+        height:max-content !important;
+    }
+    .frame
+    {
+        height:530px !important;
+    }
+    #section-p6
+    {
+        margin-top: 10px !important;
+    }
+}
