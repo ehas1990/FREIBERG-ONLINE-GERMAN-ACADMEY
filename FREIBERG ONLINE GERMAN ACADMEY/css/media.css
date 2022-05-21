@@ -2,6 +2,10 @@
   and (min-device-width: 100px)
   and (max-device-width:320px)
 {
+    .phone,.sub
+    {
+        margin-top: 10px !important;
+    }
     .logo {
         width: 65px !important;
         height: 65px !important;
@@ -65,6 +69,10 @@
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   {
+    .phone,.sub
+    {
+        margin-top: 10px !important;
+    }
     .social-head {
         background: #ff4f57;
         height: 180px !important;
@@ -116,6 +124,10 @@
   and (min-device-width: 480px)
   and (max-device-width: 620px)
 {
+    .phone,.sub
+    {
+        margin-top: 10px !important;
+    }
     .social-head {
         background: #ff4f57;
         height: 123px !important;
@@ -166,6 +178,7 @@
   and (min-device-width:620px)
   and (max-device-width:720px)
 {
+   
     .social-head {
         background: #ff4f57;
         height: 129px;
