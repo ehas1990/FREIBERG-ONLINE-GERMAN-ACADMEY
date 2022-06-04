@@ -1,19 +1,24 @@
 <?php
-//get data from form  
-
+// ini_set( 'display_errors', 1 );
+// error_reporting( E_ALL );
+error_reporting(E_ERROR | E_PARSE);
 $name = $_POST['name'];
 $phone = $_POST['phone'];
 $email= $_POST['email'];
 $sub= $_POST['sub'];
 $message= $_POST['message'];
-$to = "ehasalpha@gmail.com";
-$subject = "Mail From website";
-$txt ="Name = ". $name . "\r\n  Email = " . $email ."\r\n  phone = " . $phone . "\r\n sub = " . $sub ."\r\n Message =" . $message;
-$headers = "From: noreply@yoursite.com" . "\r\n" .
-"CC: somebodyelse@example.com";
-if($email!=NULL){
-    mail($to,$subject,$txt,$headers);
+$subject="freiberggermanyacademy";
+$to = "ehasalpha@gmail.com";  
+// $to = "info@freiberggermanyacademy.com";
+$txt ="Name : ". $name . "\r\n phone : " . $phone . "\r\n  Message :" . $message;
+$sub= ". $sub";
+$headers = "From:" . $email;
+ 
+if(mail($to,$sub,$txt,$headers)) {
+ 
+echo "<h1>Sent Successfully! Thank you ".$name.", We will contact you shortly!</h1>";
+} else {
+    echo "The email message was not sent.";
 }
-//redirect
-header("Location:index.html");
+
 ?>
