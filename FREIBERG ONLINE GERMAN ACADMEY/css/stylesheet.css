@@ -372,7 +372,7 @@ background: #1d2023;
 }
 .p-6
 {
-  padding: 120px;
+  padding: 120px !important;
 }
 .box1 {
   background: #ffffff;

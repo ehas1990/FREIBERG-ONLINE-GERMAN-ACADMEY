@@ -2,6 +2,10 @@
   and (min-device-width: 100px)
   and (max-device-width:320px)
 {
+    .section-services
+{
+  padding: 146px !important;
+}
     .phone,.sub
     {
         margin-top: 10px !important;
@@ -69,6 +73,10 @@
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   {
+    .section-services
+{
+  padding: 146px !important;
+}
     .phone,.sub
     {
         margin-top: 10px !important;
@@ -124,6 +132,10 @@
   and (min-device-width: 480px)
   and (max-device-width: 620px)
 {
+    .section-services
+{
+  padding: 146px !important;
+}
     .phone,.sub
     {
         margin-top: 10px !important;
