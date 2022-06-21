@@ -4,7 +4,7 @@
 {
     .section-services
 {
-  padding: 146px !important;
+  padding: 200px !important;
 }
     .phone,.sub
     {
@@ -75,7 +75,7 @@
   {
     .section-services
 {
-  padding: 146px !important;
+  padding: 200px !important;
 }
     .phone,.sub
     {
@@ -134,7 +134,7 @@
 {
     .section-services
 {
-  padding: 146px !important;
+  padding: 200px !important;
 }
     .phone,.sub
     {
@@ -190,7 +190,10 @@
   and (min-device-width:620px)
   and (max-device-width:720px)
 {
-   
+    .section-services
+    {
+      padding: 200px !important;
+    }
     .social-head {
         background: #ff4f57;
         height: 129px;
