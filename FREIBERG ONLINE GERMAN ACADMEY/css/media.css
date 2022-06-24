@@ -242,6 +242,11 @@
   and (min-device-width:720px)
   and (max-device-width:1200px)
 {
+    
+    .section-services
+{
+  padding: 170px !important;
+}
     .social-head {
         background: #ff4f57;
         height: 128px !important;
