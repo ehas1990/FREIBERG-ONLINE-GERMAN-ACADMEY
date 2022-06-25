@@ -2,6 +2,32 @@
   and (min-device-width: 100px)
   and (max-device-width:320px)
 {
+    .foot_2 .nav {
+        display: block;
+        color: #aaa;
+        font-weight: 500;
+        font-size: 13px !important;
+    }
+    #nav-social
+    {
+        font-size: 14px !important;
+    }
+    div#n2-ss-4 .n2-font-b8b65977c061155d2b0af0f421449124-hover {
+        font-family: 'Bree Serif';
+        color: #ffffff;
+        font-size: 225%;
+        text-shadow: none;
+        line-height: 1.5;
+        font-weight: normal;
+        font-style: normal;
+        text-decoration: none;
+        text-align: inherit;
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        font-weight: 400;
+        margin-top: 36px !important;
+    }
     .section-services
 {
   padding: 200px !important;
@@ -73,6 +99,33 @@
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   {
+    
+    .foot_2 .nav {
+        display: block;
+        color: #aaa;
+        font-weight: 500;
+        font-size: 12px !important;
+    }
+    #nav-social
+    {
+        font-size: 14px !important;
+    }
+    div#n2-ss-4 .n2-font-b8b65977c061155d2b0af0f421449124-hover {
+        font-family: 'Bree Serif';
+        color: #ffffff;
+        font-size: 225%;
+        text-shadow: none;
+        line-height: 1.5;
+        font-weight: normal;
+        font-style: normal;
+        text-decoration: none;
+        text-align: inherit;
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        font-weight: 400;
+        margin-top: 36px !important;
+    }
     .section-services
 {
   padding: 200px !important;
@@ -132,6 +185,33 @@
   and (min-device-width: 480px)
   and (max-device-width: 620px)
 {
+    
+    .foot_2 .nav {
+        display: block;
+        color: #aaa;
+        font-weight: 500;
+        font-size: 12px !important;
+    }
+    #nav-social
+    {
+        font-size: 14px !important;
+    }
+    div#n2-ss-4 .n2-font-b8b65977c061155d2b0af0f421449124-hover {
+        font-family: 'Bree Serif';
+        color: #ffffff;
+        font-size: 225%;
+        text-shadow: none;
+        line-height: 1.5;
+        font-weight: normal;
+        font-style: normal;
+        text-decoration: none;
+        text-align: inherit;
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        font-weight: 400;
+        margin-top: 36px !important;
+    }
     .section-services
 {
   padding: 200px !important;
@@ -190,6 +270,33 @@
   and (min-device-width:620px)
   and (max-device-width:720px)
 {
+    
+    .foot_2 .nav {
+        display: block;
+        color: #aaa;
+        font-weight: 500;
+        font-size: 12px !important;
+    }
+    #nav-social
+    {
+        font-size: 14px !important;
+    }
+    div#n2-ss-4 .n2-font-b8b65977c061155d2b0af0f421449124-hover {
+        font-family: 'Bree Serif';
+        color: #ffffff;
+        font-size: 225%;
+        text-shadow: none;
+        line-height: 1.5;
+        font-weight: normal;
+        font-style: normal;
+        text-decoration: none;
+        text-align: inherit;
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        font-weight: 400;
+        margin-top: 36px !important;
+    }
     .section-services
     {
       padding: 200px !important;
@@ -242,7 +349,26 @@
   and (min-device-width:720px)
   and (max-device-width:1200px)
 {
-    
+    #nav-social
+    {
+        font-size: 14px !important;
+    }
+    div#n2-ss-4 .n2-font-b8b65977c061155d2b0af0f421449124-hover {
+        font-family: 'Bree Serif';
+        color: #ffffff;
+        font-size: 225%;
+        text-shadow: none;
+        line-height: 1.5;
+        font-weight: normal;
+        font-style: normal;
+        text-decoration: none;
+        text-align: inherit;
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: none;
+        font-weight: 400;
+        margin-top: 36px !important;
+    }
     .section-services
 {
   padding: 170px !important;

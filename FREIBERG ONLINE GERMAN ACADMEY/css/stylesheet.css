@@ -14,7 +14,7 @@ body
 .social-head
 {
     background: #ff4f57;
-    height: 60px;
+    height: 90px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -310,6 +310,7 @@ color:  #aaa;
   display: block;
   color: #aaa;
   font-weight: 500;
+  font-size: 14px;
 }
 .foot_2 .nav li a{
   color: #aaa;
@@ -368,7 +369,8 @@ background: #1d2023;
 }
 .logo
 {
-  width:125px;
+  width:85px;
+  height: 90px;
 }
 .p-6
 {
@@ -1116,4 +1118,8 @@ font-style:oblique;
 #fa-phone
 {
   margin-top: 4px;
+}
+.justifycontentend
+{
+  justify-content: end;
 }
