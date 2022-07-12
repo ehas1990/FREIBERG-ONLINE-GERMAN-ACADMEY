@@ -18,7 +18,7 @@
 {
   
   background: linear-gradient(45deg,black,transparent),url('../images/headerimage.jpg');
-  background-size: cover;
+  background-size:contain;
   height:110px !important;
   margin-top: -32px !important;
 }
@@ -142,7 +142,7 @@
     {
       
       background: linear-gradient(45deg,black,transparent),url('../images/headerimage.jpg');
-      background-size: cover;
+      background-size:contain;
       height:110px !important;
       margin-top: -32px !important;
     }
@@ -254,7 +254,7 @@
     {
       
       background: linear-gradient(45deg,black,transparent),url('../images/headerimage.jpg');
-      background-size: cover;
+      background-size:contain;
       height:110px !important;
       margin-top: -32px !important;
       background-position-y: 251px !important;
@@ -375,7 +375,7 @@
     {
       
       background: linear-gradient(45deg,black,transparent),url('../images/headerimage.jpg');
-      background-size: cover;
+      background-size:contain;
       height:110px !important;
       margin-top: -32px !important;
       background-position-y: 251px !important;
@@ -489,11 +489,13 @@
     {
       
       background: linear-gradient(45deg,black,transparent),url('../images/headerimage.jpg');
-      background-size: cover;
+      background-size:contain;
       height:520px !important;
-      margin-top: -32px !important;
+      margin-top: -38px !important;
       background-position-y: 251px !important;
+      padding: 170px !important;
     }
+
     .cd-breadcrumb li  a 
     {
      color :#ffffff;
@@ -554,10 +556,7 @@
         font-weight: 400;
         margin-top: 36px !important;
     }
-    .section-services
-{
-  padding: 170px !important;
-}
+ 
     .social-head {
         background: #ff4f57;
         height: 100px !important;
@@ -606,13 +605,7 @@
 {
     float: right;
 }
-.section-services
-{
-  
-  background: linear-gradient(45deg,black,transparent),url('../images/headerimage.jpg');
-  background-size: cover;
-  height: 400px;
-}
+
 .cd-breadcrumb li  a 
 {
  color :#ffffff;
@@ -631,4 +624,16 @@
 #breadcrumb
 {
     margin-top: 60px;
+}
+.star
+{
+    color: #ff4f57;
+    font-weight: bolder;
+}
+.section-services
+{
+  
+  background: linear-gradient(45deg,black,transparent),url('../images/headerimage.jpg');
+  background-size:contain;
+  height: 400px;
 }
