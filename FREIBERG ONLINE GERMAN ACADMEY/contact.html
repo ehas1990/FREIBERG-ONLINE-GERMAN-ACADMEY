@@ -66,30 +66,30 @@
 <header class="fixedtop">
 
   <!-- contact -->
-    <div class="social-head">
-        <div class="container">
-            <div class="row">
-                  <div class="col-sm-12 col-12 col-md-6 col-lg-6 col-xl-6">
-                      <ul class="nav" id="nav_edit">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link" id="nav-link"><i class="fa fa-map-marker"></i><span class="me-3"><p>Freiberg Online German Academy & Educational Consultancy,Kerala.</p></span></a>
-                            </li>
-                      </ul>
-                  </div>
-                  <div class="col-sm-12 col-12 col-md-6 col-lg-6 col-xl-6">
-                    <ul class="nav justifycontentend"  id="nav-social">
-                      <li class="nav-item ">
-                          <a href="tel:+918921024949" class="nav-link" id="nav-link"><i class="fa fas fa-phone " id="fa-phone"></i><span class="me-3">(+91) 8921024949 | (+49) 1637914297</span></a>
-                      </li>
-                      <li class="nav-item ">
-                        <a  href="mailto: freiberggermanacademy@gmail.com" class="nav-link" id="nav-link"><i class="fa fa-envelope"></i><span class="me-3">freiberggermanacademy@gmail.com</span></a>
-                    </li>
-                  
+  <div class="social-head">
+    <div class="container-fluid">
+        <div class="row">
+              <div class="col-sm-12 col-12 col-md-4 col-lg-4 col-xl-4">
+                  <ul class="nav" id="nav_edit">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" id="nav-link"><i class="fa fa-map-marker"></i><span class="me-3"><p>Freiberg Online German Academy & Educational Consultancy, Kerala.</p></span></a>
+                        </li>
                   </ul>
-                  </div>
-            </div>
+              </div>
+              <div class="col-sm-12 col-12 col-md-8 col-lg-8 col-xl-8">
+                <ul class="nav justifycontentend"  id="nav-social">
+                  <li class="nav-item ">
+                      <a href="tel:+918921024949" class="nav-link" id="nav-link"><i class="fa fas fa-phone " id="fa-phone"></i><span class="me-3">(+91) 8921024949 | (+49) 1637914297</span></a>
+                  </li>
+                  <li class="nav-item ">
+                    <a  href="mailto: freiberggermanacademy@gmail.com" class="nav-link" id="nav-link"><i class="fa fa-envelope"></i><span class="me-3">freiberggermanacademy@gmail.com</span></a>
+                </li>
+              
+              </ul>
+              </div>
         </div>
-  </div>
+    </div>
+</div>
   <div class="main_head bg-light">
    <div class="container">
          <div class="row">
@@ -124,15 +124,24 @@
     <!-- end -->
   </header>
 <!-- end -->
-<section class="p-3 section-services">
-    <div class="container">
-           <div class="row">
-                  <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-md-12 col-xl-12">
-                    
+<section class="section-services" style="background-image:url('./images/headerimage.jpg')">
+  <div class="container">
+         <div class="row" id="breadcrumb">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-md-12 col-xl-12">
+                  <div class="bread">
+                    <h1><a  class="breadcrumb-header">Contact</a></h1>
+                    <ul class="nav cd-breadcrumb ">
+                        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link">></a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+                    </ul>
+          
                   </div>
-           </div>
-    </div>
+                </div>
+         </div>
+  </div>
 </section>
+<span class="p-3"></span>
 <!-- contact -->
 <section id="section-p6">
           <div class="container">
@@ -142,20 +151,21 @@
                                        <h5>ENQUIRY BOX</h5>
                                        <form action="mail.php" method="post">
                                               <div class="row">
+                                                    <div class="col-lg-6 col-xl-6 col-md-6"> 
+                                                         <input type="text" class="form-control" name="name" placeholder="Name" required>
+                                                    </div><br><br>
                                                     <div class="col-lg-6 col-xl-6 col-md-6">
-                                                         <input type="text" class="form-control" name="name" placeholder="Enter the name">
-                                                    </div>
-                                                    <div class="col-lg-6 col-xl-6 col-md-6">
-                                                      <input type="text" class="form-control phone" name="phone" placeholder="Enter the contact">
+                                                      <input type="text" class="form-control phone" name="phone" placeholder=" Contact" required>
                                                  </div>
                                               </div>
                                               <div class="row pt-3">
                                                   <div class="col-lg-6 col-xl-6 col-md-6">
-                                                      <input type="text" class="form-control" name="email" placeholder="Enter the email">
-                                                  </div>
+                                                      <input type="text" class="form-control" name="email" placeholder=" Email" required>
+                                                  </div><br><br>
                                                   <div class="col-lg-6 col-xl-6 col-md-6">
-                                                    <select class="form-control sub" name="sub">
-                                                             <option name="sub">Course you’d like to opt  </option>
+                                                    <select class="form-control sub" name="sub" required>
+                                                            <option value="" disabled selected> Course</option>
+                                                            
                                                             <option name="sub">A1 Level (Beginner Level) </option>
                                                             <option name="sub">A2 Level (Elementary Level) </option>
                                                             <option name="sub">B1 Level (Intermediate Level) </option>
@@ -167,13 +177,13 @@
                                               </div>
                                               <div class="row pt-3">
                                                   <div class="col-lg-12 col-xl-12 col-md-12">
-                                                      <textarea class="form-control"row="700" placeholder="Enter the subject"></textarea>
+                                                      <textarea class="form-control"row="700"></textarea>
                                                  </div>
                                               </div>
                                               <div class="row pt-3">
                                                 <div class="col-lg-12 col-xl-12 col-md-12">
                                                       <div style="float:right">
-                                                        <input type="submit" class="btn btn-danger " namme="submit" value="submit">
+                                                        <input type="submit" class="btn btn-danger " namme="Submit" value="Submit">
                                                       </div>
                                                      
                                                </div>
@@ -270,7 +280,7 @@
 
 <!-- foot -->
 <div id="foot">
-       <div class="container">
+       <div class="container-fluid">
               <div class="row p-3">
                      <div class="col-sm-12 col-xs-12 col-lg-6 col-md-6 col-xl-6">
                           <div id="foot-3">
@@ -279,10 +289,11 @@
                      </div>
                      <div class="col-sm-12 col-xs-12 col-lg-6 col-md-6 col-xl-6">
                              <div id="foot-4 ">
-                                    <ul class="nav foot-4 justify-content-end">
+                                    <ul class="nav foot-4">
                                       <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/freibergonlinegermanacademy/"><i class="fa fa-facebook"></i></a></li>
                                       
                                       <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/freiberg_online_academy/"><i class="fa fa-instagram"></i></a></li>
+                                      <li class="nav-item"><a class="nav-link" href="https://wa.me/8921024949?text="><i class="fa fa-whatsapp"></i></a></li>
                                     </ul>
                              </div>
                      </div>
