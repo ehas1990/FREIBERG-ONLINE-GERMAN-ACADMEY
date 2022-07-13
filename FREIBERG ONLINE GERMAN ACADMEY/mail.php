@@ -11,12 +11,12 @@ $subject="freiberggermanyacademy";
 $to = "ehasalpha@gmail.com";  
 // $to = "freiberggermanacademy@gmail.com";
 $txt ="Name : ". $name . "\r\n phone : " . $phone . "\r\n  Message :" . $message;
-$sub= ". $sub";
+$sub= " $sub";
 $headers = "From:" . $email;
  
 if(mail($to,$sub,$txt,$headers)) {
  
-echo "<h1>Sent Successfully! Thank you ".$name.", We will contact you shortly!</h1>";
+echo "<h1>Sent Successfully! Thank you ".$name."</h1>";
 } else {
     echo "The email message was not sent.";
 }
