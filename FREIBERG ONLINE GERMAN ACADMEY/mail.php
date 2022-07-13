@@ -1,6 +1,6 @@
 <?php
-// ini_set( 'display_errors', 1 );
-// error_reporting( E_ALL );
+ini_set( 'display_errors', 1 );
+error_reporting( E_ALL );
 error_reporting(E_ERROR | E_PARSE);
 $name = $_POST['name'];
 $phone = $_POST['phone'];
@@ -8,8 +8,8 @@ $email= $_POST['email'];
 $sub= $_POST['sub'];
 $message= $_POST['message'];
 $subject="freiberggermanyacademy";
-  
-$to = "freiberggermanacademy@gmail.com";
+$to = "ehasalpha@gmail.com";  
+// $to = "freiberggermanacademy@gmail.com";
 $txt ="Name : ". $name . "\r\n phone : " . $phone . "\r\n  Message :" . $message;
 $sub= ". $sub";
 $headers = "From:" . $email;
