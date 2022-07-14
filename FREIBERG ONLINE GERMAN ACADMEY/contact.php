@@ -72,7 +72,7 @@
               <div class="col-sm-12 col-12 col-md-4 col-lg-4 col-xl-4">
                   <ul class="nav" id="nav_edit">
                         <li class="nav-item">
-                            <a href="#" class="nav-link" id="nav-link"><i class="fa fa-map-marker"></i><span class="me-3"><p>Freiberg Online German Academy & Educational Consultancy, Kerala.</p></span></a>
+                            <a href="https://goo.gl/maps/FqaosipjUqe5RLix5" class="nav-link" id="nav-link"><i class="fa fa-map-marker"></i><span class="me-3"><p>Freiberg Online German Academy & Educational Consultancy, Kerala.</p></span></a>
                         </li>
                   </ul>
               </div>
@@ -95,7 +95,7 @@
          <div class="row">
           <nav class="navbar navbar-expand-sm bg-light navbar-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="images/logo.png" class="logo"></a>
+              <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo"></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -132,7 +132,7 @@
                     <h1><a  class="breadcrumb-header">Contact</a></h1>
                     <ul class="nav cd-breadcrumb ">
                         <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link">></a></li>
+                        <li class="nav-item"><a class="nav-link">/</a></li>
                         <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
                     </ul>
           
