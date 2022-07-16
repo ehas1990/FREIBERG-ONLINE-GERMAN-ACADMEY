@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -62,6 +60,32 @@
   <link href="css/media.css" rel="stylesheet" type="text/css">
   </head>
 <body >
+  <!--php  -->
+  <?php
+ini_set( 'display_errors', 1 );
+error_reporting( E_ALL );
+error_reporting(E_ERROR | E_PARSE);
+$name = $_POST['name'];
+$phone = $_POST['phone'];
+$email= $_POST['email'];
+$sub= $_POST['sub'];
+$message= $_POST['message'];
+$subject="freiberggermanyacademy";
+// $to = "ehasalpha@gmail.com";  
+$to = "freiberggermanacademy@gmail.com";
+$txt ="Name : ". $name . "\r\n phone : " . $phone . "\r\n  Message :" . $message;
+$sub= " $sub";
+$headers = "From:" . $email;
+ 
+if(mail($to,$sub,$txt,$headers)) {
+ 
+echo "<h1>Sent Successfully! Thank you ".$name."</h1>";
+} else {
+    echo "The email message was not sent.";
+}
+include('contact.php');
+?>
+  <!--  -->
 <!-- header -->
 <header class="fixedtop">
 
@@ -129,7 +153,7 @@
          <div class="row" id="breadcrumb">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-md-12 col-xl-12">
                   <div class="bread">
-                    <h1><a  class="breadcrumb-header">Contact</a></h1>
+                    <h1 class="breadcrumb-header">Contact</h1>
                     <ul class="nav cd-breadcrumb ">
                         <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link">/</a></li>
@@ -181,7 +205,7 @@
                                               </div>
                                               <div class="row pt-3">
                                                   <div class="col-lg-12 col-xl-12 col-md-12">
-                                                      <textarea class="form-control"row="700"></textarea>
+                                                      <textarea class="form-control" row="700" name="message"></textarea>
                                                  </div>
                                               </div>
                                               <div class="row pt-3">
@@ -192,35 +216,15 @@
                                                      
                                                </div>
                                             </div>
+          
+                                        
                                        </form>
-                                       
-                                       <?php
-                                       // ini_set( 'display_errors', 1 );
-                                       // error_reporting( E_ALL );
-                                       error_reporting(E_ERROR | E_PARSE);
-                                       $name = $_POST['name'];
-                                       $phone = $_POST['phone'];
-                                       $email= $_POST['email'];
-                                       $sub= $_POST['sub'];
-                                       $message= $_POST['message'];
-                                       $subject="freiberggermanyacademy";
-                                         
-                                       $to = "ehasalpha@gmail.com";
-                                       $txt ="Name : ". $name . "\r\n phone : " . $phone . "\r\n  Message :" . $message;
-                                       $sub= ". $sub";
-                                       $headers = "From:" . $email;
-                                        
-                                       if(mail($to,$sub,$txt,$headers)) {
-                                        
-                                       echo "<h1>Sent Successfully! Thank you ".$name.", We will contact you shortly!</h1>";
-                                       } else {
-                                           echo "The email message was not sent.";
-                                       }
-                                       
-                                       ?>
-                                       
+                                             
+                                  
                                </div>
+                                  
                         </div>
+       
                             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
                               <h3>Contact Info</h3>
                                     <div id="address">
