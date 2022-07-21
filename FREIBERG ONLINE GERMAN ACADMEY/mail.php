@@ -8,17 +8,26 @@ $email= $_POST['email'];
 $sub= $_POST['sub'];
 $message= $_POST['message'];
 $subject="freiberggermanyacademy";
-// $to = "ehasalpha@gmail.com";  
+// $to="Jerome.panlilio@hostinger.com";
 $to = "freiberggermanacademy@gmail.com";
 $txt ="Name : ". $name . "\r\n phone : " . $phone . "\r\n  Message :" . $message;
 $sub= " $sub";
 $headers = "From:" . $email;
  
 if(mail($to,$sub,$txt,$headers)) {
- 
-echo "<h1>Sent Successfully! Thank you ".$name."</h1>";
+
+   $data=array(
+    'error'=>false,
+    'message'=>"Successfully Submited"
+   );
+   echo json_encode($data);
 } else {
-    echo "The email message was not sent.";
+  
+   $data=array(
+    'error'=>true,
+    'message'=>"Somethin wentwrong"
+   );
+   echo json_encode($data);
 }
-require_once "contact.html";
+
 ?>
