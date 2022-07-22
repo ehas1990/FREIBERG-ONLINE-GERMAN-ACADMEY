@@ -554,7 +554,7 @@
  
     .social-head {
         background: #ff4f57;
-        height: 60px !important;
+        height: 90px !important;
         padding-top: 5px;
         padding-bottom: 5px;
     }
@@ -631,10 +631,4 @@
   background: linear-gradient(45deg,black,transparent),url('../images/headerimage.jpg');
   background-size:contain;
   height: 400px;
-}
-.social-head {
-    background: #ff4f57;
-    height:60px;
-    padding-top:5px;
-    padding-bottom: 5px;
 }

@@ -150,23 +150,23 @@
                                <div class="section-form">
                                        <h5>ENQUIRY BOX</h5>
                                        <form id="contact-form" action="mail.php" method="post" enctype="multipart/form-data">
-                                              <div class="row">
-                                                    <div class="col-lg-6 col-xl-6 col-md-6"> 
-                                                      <label class="">Name <span class="star">*</span></label>
+                                              <div class="row pt-3">
+                                                    <div class="col-lg-6 col-xl-6 col-md-6"> <br>
+                                                         <label class="">Name <span class="star">*</span></label><br>
                                                          <input type="text" class="form-control" name="name" required>
-                                                    </div><br><br>
-                                                    <div class="col-lg-6 col-xl-6 col-md-6">
-                                                      <label class="">Phone<span class="star">*</span></label>
+                                                    </div>
+                                                    <div class="col-lg-6 col-xl-6 col-md-6"><br>
+                                                      <label class="">Phone<span class="star">*</span></label><br>
                                                       <input type="text" class="form-control phone" name="phone"  required>
                                                  </div>
                                               </div>
                                               <div class="row pt-3">
-                                                  <div class="col-lg-6 col-xl-6 col-md-6">
-                                                    <label class="">Email<span class="star">*</span></label>
+                                                  <div class="col-lg-6 col-xl-6 col-md-6"><br>
+                                                    <label class="">Email<span class="star">*</span></label><br>
                                                       <input type="text" class="form-control" name="email"  required>
-                                                  </div><br><br>
-                                                  <div class="col-lg-6 col-xl-6 col-md-6">
-                                                    <label class="">Course<span class="star">*</span></label>
+                                                  </div>
+                                                  <div class="col-lg-6 col-xl-6 col-md-6"><br>
+                                                    <label class="">Course<span class="star">*</span></label><br>
                                                     <select class="form-control sub" name="sub" required>
                                                             <option value="" disabled selected> Course </option>
                                                             
@@ -180,7 +180,8 @@
                                                 </div>
                                               </div>
                                               <div class="row pt-3">
-                                                  <div class="col-lg-12 col-xl-12 col-md-12">
+                                                  <div class="col-lg-12 col-xl-12 col-md-12"><br>
+                                                  <label class="">Message</label><br><br>
                                                       <textarea class="form-control" row="700" name="message"></textarea>
                                                  </div>
                                               </div>
@@ -238,7 +239,7 @@
                  
                  </div>
                 <div class="col-12 col-sm-12 col-lg-6 col-md-6 col-xl-6">
-                <div class=""> <button onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-dark" style="float: right;border-radius: 38px;"><i class="fa fa-arrow-up "></i></button></div>
+                <div class="mt-2"> <button onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-dark" style="float: right;border-radius: 38px;"><i class="fa fa-arrow-up "></i></button></div>
                 </div>
          </div>
   </div>
