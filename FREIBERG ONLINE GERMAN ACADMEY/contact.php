@@ -368,9 +368,23 @@
             success: function (data) {
               let respose=JSON.parse(data);
                if(respose.error===false){
-                 alert(respose.message)
+                   $("#contact-form")[0].reset();
+                //  alert(respose.message)
+                Swal.fire({
+  position: 'center',
+  icon: 'success',
+  title: 'Form Submitted Successfully',
+  showConfirmButton: false,
+ 
+})
                }else{
-                 alert(respose.message)
+                 Swal.fire({
+  position: 'center',
+  icon: 'warning',
+  title: 'Form Submitted Failed ',
+  showConfirmButton: false,
+
+})
                }
             },
             error: function (data) {
@@ -380,6 +394,6 @@
         });
   }); 
   </script>
-  
+ <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
 
 </body>

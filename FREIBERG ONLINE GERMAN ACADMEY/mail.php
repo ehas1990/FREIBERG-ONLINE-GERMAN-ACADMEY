@@ -8,7 +8,7 @@ $email= $_POST['email'];
 $sub= $_POST['sub'];
 $message= $_POST['message'];
 $subject="freiberggermanyacademy";
-// $to="Jerome.panlilio@hostinger.com";
+// $to="ehasalpha@gmail.com";
 $to = "freiberggermanacademy@gmail.com";
 $txt ="Name : ". $name . "\r\n phone : " . $phone . "\r\n  Message :" . $message;
 $sub= " $sub";
@@ -18,7 +18,7 @@ if(mail($to,$sub,$txt,$headers)) {
 
    $data=array(
     'error'=>false,
-    'message'=>"Successfully Submited"
+    'message'=>"Successfully Submitted"
    );
    echo json_encode($data);
 } else {
