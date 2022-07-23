@@ -4,6 +4,7 @@
     <title>Freiberg Online German Academy & Educational Consultancy</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="@sweetalert2/themes/dark/dark.css">
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
@@ -150,23 +151,23 @@
                                <div class="section-form">
                                        <h5>ENQUIRY BOX</h5>
                                        <form id="contact-form" action="mail.php" method="post" enctype="multipart/form-data">
-                                              <div class="row pt-3">
-                                                    <div class="col-lg-6 col-xl-6 col-md-6"> <br>
-                                                         <label class="">Name <span class="star">*</span></label><br>
+                                              <div class="row ">
+                                                    <div class="col-lg-6 col-xl-6 col-md-6"> 
+                                                         <label class="">Name <span class="star">*</span></label>
                                                          <input type="text" class="form-control" name="name" required>
                                                     </div>
-                                                    <div class="col-lg-6 col-xl-6 col-md-6"><br>
-                                                      <label class="">Phone<span class="star">*</span></label><br>
-                                                      <input type="text" class="form-control phone" name="phone"  required>
+                                                    <div class="col-lg-6 col-xl-6 col-md-6">
+                                                      <label class="">Phone<span class="star">*</span></label>
+                                                      <input type="text" class="form-control " name="phone"  required>
                                                  </div>
                                               </div>
-                                              <div class="row pt-3">
-                                                  <div class="col-lg-6 col-xl-6 col-md-6"><br>
-                                                    <label class="">Email<span class="star">*</span></label><br>
+                                              <div class="row ">
+                                                  <div class="col-lg-6 col-xl-6 col-md-6">
+                                                    <label class="">Email<span class="star">*</span></label>
                                                       <input type="text" class="form-control" name="email"  required>
                                                   </div>
-                                                  <div class="col-lg-6 col-xl-6 col-md-6"><br>
-                                                    <label class="">Course<span class="star">*</span></label><br>
+                                                  <div class="col-lg-6 col-xl-6 col-md-6 course" >
+                                                    <label class="">Course<span class="star">*</span></label>
                                                     <select class="form-control sub" name="sub" required>
                                                             <option value="" disabled selected> Course </option>
                                                             
@@ -179,13 +180,14 @@
                                                     </select>
                                                 </div>
                                               </div>
-                                              <div class="row pt-3">
-                                                  <div class="col-lg-12 col-xl-12 col-md-12"><br>
-                                                  <label class="">Message</label><br><br>
+                                              <div class="row">
+                                                  <div class="col-lg-12 col-xl-12 col-md-12">
+                                                  <label class="">Message</label>
                                                       <textarea class="form-control" row="700" name="message"></textarea>
                                                  </div>
                                               </div>
-                                              <div class="row pt-3">
+                                              <br>
+                                              <div class="row">
                                                 <div class="col-lg-12 col-xl-12 col-md-12">
                                                       <div style="float:right">
                                                         <input type="submit" class="btn btn-danger " namme="Submit" value="Submit">
@@ -371,21 +373,10 @@
                if(respose.error===false){
                    $("#contact-form")[0].reset();
                 //  alert(respose.message)
-                Swal.fire({
-  position: 'center',
-  icon: 'success',
-  title: 'Form Submitted Successfully',
-  showConfirmButton: false,
- 
-})
+            //   swal("Form Submitted!", "Successfully", "success");
+            swal("Form Submitted!", "", "success");
                }else{
-                 Swal.fire({
-  position: 'center',
-  icon: 'warning',
-  title: 'Form Submitted Failed ',
-  showConfirmButton: false,
-
-})
+                swal("Form Submitted Failed!", "", "error");
                }
             },
             error: function (data) {
@@ -395,6 +386,8 @@
         });
   }); 
   </script>
- <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script src="sweetalert2/dist/sweetalert2.min.js"></script>
 
 </body>
