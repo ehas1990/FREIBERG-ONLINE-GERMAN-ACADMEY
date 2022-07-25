@@ -112,7 +112,7 @@
                     <a class="nav-link" href="Services.html">Services</a>
                   </li>   
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="contact.php">Contact</a>
                   </li>  
                 </ul>
               </div>
@@ -134,7 +134,7 @@
                     <ul class="nav cd-breadcrumb ">
                         <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link">/</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contact.php">Contact</a></li>
                     </ul>
           
                   </div>
@@ -266,7 +266,7 @@
                               <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                               <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
                               <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
-                              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                              <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                         </ul>
                       </div>
               </div>        
@@ -306,7 +306,7 @@
                                       <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/freibergonlinegermanacademy/"><i class="fa fa-facebook"></i></a></li>
                                       
                                       <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/freiberg_online_academy/"><i class="fa fa-instagram"></i></a></li>
-                                      <li class="nav-item"><a class="nav-link" href="https://wa.me/918921024949?text=WATI%0AHi%2C%20there!%20%F0%9F%91%8B%0AHow%20can%20I%20help%20you%3F"><i class="fa fa-whatsapp"></i></a></li>
+                                      <li class="nav-item"><a class="nav-link" href="https://wa.me/918921024949?text="><i class="fa fa-whatsapp"></i></a></li>
                                     </ul>
                              </div>
                      </div>
