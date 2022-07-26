@@ -101,7 +101,7 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                <ul class="navbar-nav ">
+                <ul class="navbar-nav nav-tabs">
                   <li class="nav-item">
                     <a class="nav-link" href="index.html">Home </a>
                   </li>
@@ -262,7 +262,7 @@
              <div class="justify-content-lg-center">
                <h4 class="text-white">Quick Link</h4> 
                     <div class="foot_2">
-                        <ul class="nav">
+                        <ul class="nav ">
                               <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                               <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
                               <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>

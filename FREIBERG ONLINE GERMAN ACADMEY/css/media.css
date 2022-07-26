@@ -625,3 +625,7 @@
   background-size:contain;
   height: 400px;
 }
+.nav-tabs
+{
+  border-bottom: 1px solid #dee2e6 !important;
+}
