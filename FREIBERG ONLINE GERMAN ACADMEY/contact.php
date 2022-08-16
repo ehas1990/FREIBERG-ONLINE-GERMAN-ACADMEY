@@ -206,21 +206,23 @@
                         </div>
        
                             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                              <h3>Contact Info</h3>
-                                    <div id="address">
-                                            <address>
-                                              Freiberg Online German Academy & Educational Consultancy
-                                              <br>
-                                              Kerala - 685508.
-                                            </address>
-                                    </div>
-                                    <div class="contact">
-                                           <ul class="nav">
-                                                 <li class="nav-link"><a class="nav-item"><i class="fa fa-phone "></i><span class="me-3">(+91) 8921024949 | (+49) 1637914297
-                                                </span></a></li>
-                                                 <li class="nav-link"><a class="nav-item"><i class="fa fa-envelope"></i><span class="me-3">freiberggermanacademy@gmail.com</span></a></li>
-                                           </ul>
-                                    </div>
+                              <div id="contact-info">
+                                    <h3>Contact Info</h3>
+                                          <div id="address">
+                                                  <address>
+                                                    Freiberg Online German Academy & Educational Consultancy
+                                                    <br>
+                                                    Kerala - 685508.
+                                                  </address>
+                                          </div>
+                                          <div class="contact">
+                                                <ul class="nav">
+                                                      <li class="nav-link"><a class="nav-item"><i class="fa fa-phone "></i><span class="me-3">(+91) 8921024949 | (+49) 1637914297
+                                                      </span></a></li>
+                                                      <li class="nav-link"><a class="nav-item"><i class="fa fa-envelope"></i><span class="me-3">freiberggermanacademy@gmail.com</span></a></li>
+                                                </ul>
+                                          </div>
+                                  </div>      
 
                             </div>
                   </div>
