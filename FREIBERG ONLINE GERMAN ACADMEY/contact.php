@@ -126,11 +126,11 @@
     <!-- end -->
   </header>
 <!-- end -->
-<section class="section-services" style="background-image:url('./images/headerimage.jpg')">
+<!-- <section class="section-services" style="background-image:url('./images/headerimage.jpg')">
   <div class="container">
          <div class="row" id="breadcrumb">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-md-12 col-xl-12">
-                  <!-- <div class="bread">
+                  <div class="bread">
                     <h1 class="breadcrumb-header">Contact</h1>
                     <ul class="nav cd-breadcrumb ">
                         <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
@@ -138,11 +138,11 @@
                         <li class="nav-item"><a class="nav-link" href="./contact.php">Contact</a></li>
                     </ul>
           
-                  </div> -->
+                  </div> 
                 </div>
          </div>
   </div>
-</section>
+</section> -->
 <span class="p-3"></span>
 <!-- contact -->
 <section id="section-p6">
