@@ -509,6 +509,15 @@
   and (min-device-width:712px)
   and (max-device-width:810px)
 {
+    .contact  .nav {
+        display: block;
+        flex-wrap: wrap;
+        padding-right: 0;
+        margin-bottom: 0;
+        list-style: none;
+        text-decoration: none;
+        font-size: 13px !important;
+    }
     .foot_2 .nav-link
     {
         font-size: 10px !important;
